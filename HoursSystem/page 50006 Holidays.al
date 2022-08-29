@@ -4,6 +4,7 @@ page 50006 Holidays
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = Holidays;
+    Caption = 'Vakantie gegevens';
 
     layout
     {
