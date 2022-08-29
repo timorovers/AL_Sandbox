@@ -1,0 +1,14 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            
+            "type": "al",
+            "request": "launch",
+            "tenant": "a8e95c05-1220-481c-874b-14e01152fba3",
+            "environmentName": "TR-DEV",
+            "schemaUpdateMode":"ForceSync",
+            "name": "Launch",
+        }
+    ]
+}
