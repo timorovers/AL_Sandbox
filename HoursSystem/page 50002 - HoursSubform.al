@@ -6,7 +6,7 @@ page 50002 HoursSubform
     LinksAllowed = false;
     PageType = ListPart;
     SourceTable = "Hoursline";
-  
+
     MultipleNewLines = true;
     Editable = true;
 
@@ -112,7 +112,7 @@ page 50002 HoursSubform
                     begin
                         if rec.Zaterdag <> xRec.Zaterdag then
                             rec.Validate(Zaterdag, rec.Zaterdag * 2);
-                        Message('Op zaterdag betaald de klant dubbel tarief dus %1 uur', Rec.zaterdag);
+                        Message('Op zaterdag betaalt de klant dubbel tarief dus %1 uur', Rec.zaterdag);
                     end;
                 }
                 field(Zondag; rec.Zondag)
@@ -126,7 +126,7 @@ page 50002 HoursSubform
                     begin
                         if rec.Zondag <> xRec.Zondag then
                             rec.Validate(Zondag, rec.Zondag * 2);
-                        Message('Op zondag betaald de klant dubbel tarief dus %1 uur', Rec.Zondag);
+                        Message('Op zondag betaalt de klant dubbel tarief dus %1 uur', Rec.Zondag);
                     end;
                 }
                 field("Total Quantity"; rec."Total Quantity")
