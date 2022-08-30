@@ -139,7 +139,7 @@ page 52000 BalieorderCarda
         SalesHeader.Validate("Sell-to Customer No.", rec."Bill-to Customer No.");
         SalesHeader."External Document No." := rec.Balieordernummer;
         SalesHeader.Modify();
-        Message('1 Verkooporder %1 gemaakt %2', SalesHeader."No.", 'goed he?');
+        Message('1 Verkooporder %1 gemaakt %2', SalesHeader."No.", 'goed hè?');
     end;
 }
 
