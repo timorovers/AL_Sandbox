@@ -1,4 +1,4 @@
-page 52000 BalieorderCarda
+page 52000 BalieorderCard
 {
     Caption = 'BalieOrder';
     PageType = Document;

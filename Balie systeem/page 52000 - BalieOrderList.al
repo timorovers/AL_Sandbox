@@ -7,7 +7,7 @@ page 52003 "BalieOrderList"
     Caption = 'Balie orders';
     ApplicationArea = All;
     UsageCategory = Lists;
-    CardPageId = BalieOrderCarda;
+    CardPageId = BalieOrderCard;
     RefreshOnActivate = true;
 
     layout
