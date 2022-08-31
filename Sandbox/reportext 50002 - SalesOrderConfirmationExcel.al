@@ -1,4 +1,4 @@
-reportextension 50002 TR_SalesOrderConfirmationEXcel extends "Standard Sales - Order Conf."
+reportextension 50001 TR_SalesOrderConfirmationExcel extends "Standard Sales - Order Conf."
 {
     rendering
     {
