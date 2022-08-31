@@ -12,9 +12,7 @@ table 50004 Holidays
             trigger OnValidate()
             begin
                 if rec.Name <> xrec.Name then
-                    DaysTotal := DaysTotal;
-                DaysTaken := DaysTaken;
-                DaysRemaining := DaysRemaining;
+                    Reset();
             end;
         }
         field(5; DaysTotal; Decimal)
@@ -34,6 +32,9 @@ table 50004 Holidays
             end;
         }
         field(15; DaysRemaining; Decimal)
+        {
+        }
+        field(20; Remarks; Text[250])
         {
         }
     }

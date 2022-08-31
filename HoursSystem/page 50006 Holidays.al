@@ -4,7 +4,7 @@ page 50006 Holidays
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = Holidays;
-    Caption = 'Vakantie gegevens';
+    Caption = 'Holidays';
 
     layout
     {
@@ -16,7 +16,6 @@ page 50006 Holidays
                 {
                     ApplicationArea = All;
                     Caption = 'Naam';
-
                 }
                 field(DaysTotal; rec.DaysTotal)
                 {
@@ -32,6 +31,13 @@ page 50006 Holidays
                 {
                     ApplicationArea = All;
                     Caption = 'Dagen over';
+                }
+                field(Remarks; rec.Remarks)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Remarks';
+                    Width = 30;
+                    Style = Attention;
                 }
             }
         }
