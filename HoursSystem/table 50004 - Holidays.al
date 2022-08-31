@@ -9,6 +9,11 @@ table 50004 Holidays
             DataClassification = ToBeClassified;
             OptionMembers = "Timo Rovers","Peter Derks","Kayleigh Vullings","Roel Verbruggen";
             Editable = true;
+            trigger OnValidate()
+            begin
+                if rec.name <> xrec.name then
+                    ClearAll();
+            end;
         }
         field(5; DaysTotal; Decimal)
         {

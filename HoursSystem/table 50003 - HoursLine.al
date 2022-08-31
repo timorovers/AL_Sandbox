@@ -3,7 +3,7 @@ table 50003 HoursLine
     //DataClassification = ToBeClassified;
     DrillDownPageID = "HoursLines";
     LookupPageID = "HoursLines";
-    Caption = 'RopeHoursLine';
+    Caption = 'HoursLine';
 
     fields
     {

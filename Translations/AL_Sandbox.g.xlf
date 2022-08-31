@@ -209,7 +209,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table HoursHeader - Field Startdate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 315065215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RopeHoursLine</source>
+          <source>HoursLine</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Property Caption</note>
         </trans-unit>
