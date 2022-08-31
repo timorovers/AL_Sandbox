@@ -16,6 +16,12 @@ page 50006 Holidays
                 {
                     ApplicationArea = All;
                     Caption = 'Naam';
+                    trigger OnValidate()
+                    begin
+                        if rec."Name" <> xrec.Name then begin
+                            CurrPage.Update();
+                        end;
+                    end;
                 }
                 field(DaysTotal; rec.DaysTotal)
                 {
