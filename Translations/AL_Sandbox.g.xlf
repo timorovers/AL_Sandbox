@@ -33,6 +33,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1411659286 - NamedType 261951165" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Loading field %1 will be skipped because there was an error when reading the data.\To fix the current data, contact your administrator.\Alternatively, you can overwrite the current data by entering data in the field.</source>
+          <note from="Developer" annotates="general" priority="2">%1=field caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - NamedType ReadingDataSkippedMsg</note>
+        </trans-unit>
+        <trans-unit id="Table 1411659286 - Field 2310509544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AdditionalText</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field AdditionalText - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1411659286 - Field 142624955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balie ordernummer</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -528,6 +538,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control Posting Date - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2724772011 - Action 2310509544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Additional text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Action AdditionalText - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2724772011 - Action 2282416948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Post</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -899,7 +914,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report BalieOrderReport - ReportDataItem BalieOrderHeader - Property RequestFilterHeading</note>
         </trans-unit>
         <trans-unit id="Query 3041816274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>MyQueryTimo</source>
+          <source>QueryTimo</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query MyQuery - Property Caption</note>
         </trans-unit>

@@ -1,13 +1,9 @@
 query 50000 MyQuery
 {
-    QueryType = API;
-    APIPublisher = 'Timozkovic';
-    APIGroup = 'GroupName';
-    //APIVersion = 'VersionList';
-    EntityName = 'EntityName';
-    EntitySetName = 'EntitySetName';
-    Caption = 'MyQueryTimo';
-    QueryCategory = 'Customer List';
+    QueryType = Normal;
+    Caption = 'QueryTimo';
+
+
 
     elements
     {
@@ -23,15 +19,6 @@ query 50000 MyQuery
             {
             }
             column(billToCity; "Bill-to City")
-            {
-            }
-            column(status; Status)
-            {
-            }
-            column(yourReference; "Your Reference")
-            {
-            }
-            column(comment; Comment)
             {
             }
             dataitem(SL; "Sales Line")

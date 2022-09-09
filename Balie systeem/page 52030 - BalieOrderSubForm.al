@@ -20,12 +20,14 @@ page 52030 "Balie Order SubForm"
                 {
                     Caption = 'Balie ordernummer';
                     ApplicationArea = Basic, Suite;
+                    Visible = false;
                 }
 
                 field("Line number"; rec."Line number")
                 {
                     Caption = 'Line number';
                     ApplicationArea = All;
+                    Visible = false;
                 }
                 field(ItemNo; rec.ItemNo)
                 {
@@ -56,6 +58,13 @@ page 52030 "Balie Order SubForm"
                     Caption = 'Discount %';
                     ApplicationArea = All;
                     DecimalPlaces = 0 : 3;
+                    trigger OnValidate()
+                    begin
+                        if rec."Discount %" <> xrec."Discount %" then
+                            rec.Price := rec.price * rec."Discount %" / 100
+                        else
+                            rec.Price := rec.Price;
+                    end;
                 }
 
                 field(Price; rec.Price)

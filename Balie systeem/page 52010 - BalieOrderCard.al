@@ -20,6 +20,11 @@ page 52000 BalieorderCard
                     Caption = 'Balie order nr';
                     ApplicationArea = All;
                     TableRelation = "BalieOrderHeader".Balieordernummer WHERE(Balieordernummer = FIELD(BalieOrderNummer));
+                    trigger OnValidate()
+                    begin
+                        if rec.Balieordernummer <> xrec.Balieordernummer then
+                            rec."Posting Date" := Today;
+                    end;
                 }
                 field(Betaalmethode; rec.Betaalmethode)
                 {
@@ -44,6 +49,7 @@ page 52000 BalieorderCard
                 {
                     Caption = 'Klantnaam';
                     ApplicationArea = All;
+                    Editable = false;
                 }
 
 
@@ -112,17 +118,25 @@ page 52000 BalieorderCard
                     PostBalieOrder();
                 end;
             }
-            action("Nrseries")
+            action(AdditionalText)
             {
-                ApplicationArea = basic, suite;
-                trigger OnAction()
+                ApplicationArea = all;
+                Caption = 'Additional text';
+                RunObject = page AdditionalText;
+                image = EditAdjustments;
+                trigger OnAction();
+                var
+                    lRecContracts: Record BalieOrderHeader;
+                    EditorPage: page AdditionalText;
+                //ContractFiles: Record "VC - Contract files";
                 begin
-                    if Rec.Balieordernummer <> xRec.Balieordernummer
-                    then
-                        rec.Init();
-                    rec.InitInsert();
+                    lRecContracts.SetRange(Balieordernummer, rec.Balieordernummer);
+                    EditorPage.SetTableView(lRecContracts);
+                    EditorPage.run;
+
 
                 end;
+
             }
         }
     }

@@ -48,6 +48,14 @@ report 50000 BalieOrderReport
                 {
                 }
             }
+            dataitem(AdditionalText; BalieOrderHeader)
+            {
+                DataItemLink = Balieordernummer = field(Balieordernummer);
+                DataItemLinkReference = BalieOrderHeader;
+                column(Additional_Text; AdditionalText)
+                {
+                }
+            }
         }
 
     }
