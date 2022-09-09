@@ -18,6 +18,13 @@ tableextension 50010 CustomerTableExxt extends Customer
                     FieldError("Shoe size", ShoeSizeError);
             end;
         }
+        field(50005; AantalBalieOrders; Integer)
+        {
+            TableRelation = BalieOrderHeader;
+            FieldClass = FlowField;
+            CalcFormula = count(BalieOrderHeader);
+
+        }
 
 
     }

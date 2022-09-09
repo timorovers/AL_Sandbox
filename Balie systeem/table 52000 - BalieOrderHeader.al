@@ -96,6 +96,11 @@ table 52005 BalieOrderHeader
             DataClassification = ToBeClassified;
             TableRelation = "No. Series".Code;
         }
+        field(50; AantalBalieOders; Integer)
+        {
+            FieldClass = FlowField;
+            CalcFormula = count(BalieOrderHeader);
+        }
 
     }
     keys
