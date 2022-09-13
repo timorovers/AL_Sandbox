@@ -61,7 +61,7 @@ page 52030 "Balie Order SubForm"
                     trigger OnValidate()
                     begin
                         if rec."Discount %" <> xrec."Discount %" then
-                            rec.Price := rec.price * rec."Discount %" / 100
+                            rec.Price := rec.price * (rec."Discount %" / 100)
                         else
                             rec.Price := rec.Price;
                     end;

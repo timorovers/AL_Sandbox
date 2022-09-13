@@ -38,7 +38,7 @@ page 50132 "Test Chart"
                     if Customer.FindSet(false, false) then
                         repeat
                             Customer.CalcFields(AantalBalieOrders);
-                            if Customer."Sales (LCY)" <> 0 then begin
+                            if Customer.AantalBalieOrders <> 0 then begin
                                 Buffer.AddColumn(Customer.Name);
                                 Buffer.SetValueByIndex(0, i, Customer.AantalBalieOrders);
                                 Buffer.SetValueByIndex(1, i, Customer.AantalBalieOrders);

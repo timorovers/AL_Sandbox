@@ -24,6 +24,7 @@ tableextension 50010 CustomerTableExxt extends Customer
             FieldClass = FlowField;
             CalcFormula = count(BalieOrderHeader);
 
+
         }
 
 

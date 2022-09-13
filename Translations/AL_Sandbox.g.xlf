@@ -469,7 +469,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieCue - Control BalieOrders - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3561296292 - Control 3333597367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Gearchiveerd</source>
+          <source>Archived</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieCue - Control BalieOrdersGearchiveerd - Property Caption</note>
         </trans-unit>
@@ -479,12 +479,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieCue - Control BalieOrdersOpen - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3561296292 - Control 773216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Vrijgegeven</source>
+          <source>Released</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieCue - Control BalieOrdersVrijgegeven - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3561296292 - Control 3574019663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Alle balie orders</source>
+          <source>All balie orders</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieCue - Control TotaalBalieOrders - Property Caption</note>
         </trans-unit>
@@ -559,7 +559,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Action Test Report - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2724772011 - Action 3150094508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Afdrukvoorbeeld</source>
+          <source>Preview</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Action Test Report - Property Caption</note>
         </trans-unit>

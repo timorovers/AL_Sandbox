@@ -92,7 +92,7 @@ page 52000 BalieorderCard
             action("Test Report")
             {
                 ApplicationArea = Basic, Suite;
-                Caption = 'Afdrukvoorbeeld';
+                Caption = 'Preview';
                 Ellipsis = true;
                 Image = TestReport;
                 ToolTip = 'View a test report so that you can find and correct any errors before you perform the actual posting of the journal or document.';

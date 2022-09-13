@@ -13,7 +13,7 @@ page 52040 BalieCue
                 // CuegroupLayout=Wide;
                 field(BalieOrdersVrijgegeven; rec.BalieOrdersVrijgegeven)
                 {
-                    Caption = 'Vrijgegeven';
+                    Caption = 'Released';
                     DrillDownPageId = "BalieOrderList";
                     ApplicationArea = All;
                 }
@@ -25,13 +25,13 @@ page 52040 BalieCue
                 }
                 field(BalieOrdersGearchiveerd; rec.BalieOrdersGearchiveerd)
                 {
-                    Caption = 'Gearchiveerd';
+                    Caption = 'Archived';
                     DrillDownPageId = BalieOrderList;
                     ApplicationArea = All;
                 }
                 field(TotaalBalieOrders; rec.TotaalBalieOrders)
                 {
-                    Caption = 'Alle balie orders';
+                    Caption = 'All balie orders';
                     DrillDownPageId = BalieOrderList;
                     ApplicationArea = All;
                 }
