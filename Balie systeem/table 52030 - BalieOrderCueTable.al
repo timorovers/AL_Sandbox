@@ -12,7 +12,7 @@ table 52030 BalieOrderCueTable
         field(2; BalieOrdersVrijgegeven; Integer)
         {
             FieldClass = FlowField;
-            CalcFormula = count(BalieOrderHeader where(OrderStatus = FILTER(Vrijgegeven)));
+            CalcFormula = count(BalieOrderHeader where(OrderStatus = FILTER(Released)));
 
         }
         field(3; BalieOrdersOpen; Integer)
@@ -23,7 +23,7 @@ table 52030 BalieOrderCueTable
         field(4; BalieOrdersGearchiveerd; Integer)
         {
             FieldClass = FlowField;
-            CalcFormula = count(BalieOrderHeader where(OrderStatus = FILTER(Gearchiveerd)));
+            CalcFormula = count(BalieOrderHeader where(OrderStatus = FILTER(Archived)));
         }
 
         field(5; TotaalBalieOrders; Integer)

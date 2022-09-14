@@ -52,11 +52,16 @@ table 52010 "BalieOrderLine"
         }
         field(30; "Discount %"; Decimal)
         {
+            TableRelation = item;
             Caption = 'Discount %';
         }
         field(35; "Price"; Decimal)
         {
+            TableRelation = item."Unit Price";
             Caption = 'Price';
+        }
+        field(40; "Line Amount"; Decimal)
+        {
         }
 
     }

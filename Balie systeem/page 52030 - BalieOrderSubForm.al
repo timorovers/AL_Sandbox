@@ -2,7 +2,6 @@ page 52030 "Balie Order SubForm"
 {
     AutoSplitKey = true;
     Caption = 'Lines';
-    //  DelayedInsert = true;
     LinksAllowed = false;
     MultipleNewLines = true;
     PageType = ListPart;
@@ -58,13 +57,6 @@ page 52030 "Balie Order SubForm"
                     Caption = 'Discount %';
                     ApplicationArea = All;
                     DecimalPlaces = 0 : 3;
-                    trigger OnValidate()
-                    begin
-                        if rec."Discount %" <> xrec."Discount %" then
-                            rec.Price := rec.price * (rec."Discount %" / 100)
-                        else
-                            rec.Price := rec.Price;
-                    end;
                 }
 
                 field(Price; rec.Price)
@@ -74,6 +66,16 @@ page 52030 "Balie Order SubForm"
                     trigger OnValidate()
                     begin
                         CurrPage.SaveRecord();
+                    end;
+                }
+                field("Line Amount"; rec."Line Amount")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Line amount';
+                    trigger OnValidate()
+                    begin
+                        if rec."Discount %" <> xrec."Discount %" then
+                            rec."Line Amount" := rec.Price - (rec."Discount %" / 100);
                     end;
                 }
             }

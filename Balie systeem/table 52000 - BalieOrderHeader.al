@@ -163,10 +163,10 @@ table 52005 BalieOrderHeader
             OrderStatus::Open:
                 StatusStyleText := 'Favorable';
 
-            OrderStatus::Vrijgegeven:
+            OrderStatus::Released:
                 StatusStyleText := 'Strong';
 
-            OrderStatus::Gearchiveerd:
+            OrderStatus::Archived:
                 StatusStyleText := 'Ambiguous';
 
         end;
