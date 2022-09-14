@@ -554,12 +554,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Control Balieordernummer - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2571222393 - Control 240204966 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Klantnaam</source>
+          <source>Customer name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Control Bill-to Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2571222393 - Control 2033646112 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Notitie</source>
+          <source>Note</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Control Notitie - Property Caption</note>
         </trans-unit>
@@ -569,7 +569,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Control OrderStatus - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2571222393 - Control 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Boekingsdatum</source>
+          <source>Posting date</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Control Posting Date - Property Caption</note>
         </trans-unit>
@@ -579,7 +579,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Action Test Report - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2571222393 - Action 3150094508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Afdrukvoorbeeld</source>
+          <source>Test report</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Action Test Report - Property Caption</note>
         </trans-unit>

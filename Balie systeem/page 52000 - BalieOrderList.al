@@ -24,12 +24,12 @@ page 52003 "BalieOrderList"
                 }
                 field("Bill-to Name"; rec."Bill-to Name")
                 {
-                    Caption = 'Klantnaam';
+                    Caption = 'Customer name';
                     ApplicationArea = All;
                 }
                 field("Posting Date"; rec."Posting Date")
                 {
-                    Caption = 'Boekingsdatum';
+                    Caption = 'Posting date';
                     ApplicationArea = All;
                 }
                 field(OrderStatus; rec.OrderStatus)
@@ -40,7 +40,7 @@ page 52003 "BalieOrderList"
                 }
                 field(Notitie; rec.Notitie)
                 {
-                    Caption = 'Notitie';
+                    Caption = 'Note';
                     ApplicationArea = All;
                 }
             }
@@ -54,7 +54,7 @@ page 52003 "BalieOrderList"
             action("Test Report")
             {
                 ApplicationArea = Basic, Suite;
-                Caption = 'Afdrukvoorbeeld';
+                Caption = 'Test report';
                 Ellipsis = true;
                 Image = TestReport;
                 ToolTip = 'View a test report so that you can find and correct any errors before you perform the actual posting of the journal or document.';
