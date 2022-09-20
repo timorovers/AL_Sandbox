@@ -16,7 +16,7 @@ page 50020 "BalieOrderLines"
                 field(BalieOrderNummer; rec.BalieOrderNummer)
                 {
                     Caption = 'Balie ordernummer';
-                    NotBlank = true;
+                    //NotBlank = true;
                     TableRelation = "BalieOrderHeader".Balieordernummer WHERE(Balieordernummer = FIELD(BalieOrderNummer));
                 }
                 field("Betaalmethode"; rec."Betaalmethode")

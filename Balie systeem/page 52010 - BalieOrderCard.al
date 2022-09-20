@@ -25,6 +25,8 @@ page 52000 BalieorderCard
                         if rec.Balieordernummer <> xrec.Balieordernummer then
                             rec."Posting Date" := Today;
                     end;
+
+
                 }
                 field(Betaalmethode; rec.Betaalmethode)
                 {
@@ -36,12 +38,12 @@ page 52000 BalieorderCard
                     Caption = 'Bill-to Customer No.';
                     ApplicationArea = All;
                     TableRelation = Customer;
-                    trigger OnValidate()
-                    begin
-                        if rec."Bill-to Customer No." <> xrec."Bill-to Customer No." then begin
-                            CurrPage.Update();
-                        end;
-                    end;
+                    // trigger OnValidate()
+                    // begin
+                    //     if rec."Bill-to Customer No." <> xrec."Bill-to Customer No." then begin
+                    //         CurrPage.Update();
+                    //     end;
+                    // end;
 
                 }
 
@@ -78,7 +80,6 @@ page 52000 BalieorderCard
             {
                 ApplicationArea = Basic, Suite;
                 Editable = true;
-                UpdatePropagation = Both;
                 SubPageLink = BalieOrderNummer = field(Balieordernummer);
 
             }
@@ -110,7 +111,7 @@ page 52000 BalieorderCard
                 Caption = 'Post';
                 Ellipsis = true;
                 Image = Post;
-                // ToolTip = 'View a test report so that you can find and correct any errors before you perform the actual posting of the journal or document.';
+
                 trigger OnAction()
                 var
 
@@ -128,7 +129,7 @@ page 52000 BalieorderCard
                 var
                     lRecContracts: Record BalieOrderHeader;
                     EditorPage: page AdditionalText;
-                //ContractFiles: Record "VC - Contract files";
+
                 begin
                     lRecContracts.SetRange(Balieordernummer, rec.Balieordernummer);
                     EditorPage.SetTableView(lRecContracts);

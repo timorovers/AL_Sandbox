@@ -20,6 +20,7 @@ page 52030 "Balie Order SubForm"
                     Caption = 'Balie ordernummer';
                     ApplicationArea = Basic, Suite;
                     Visible = false;
+                    TableRelation = BalieOrderHeader.Balieordernummer;
                 }
 
                 field("Line number"; rec."Line number")
@@ -75,7 +76,7 @@ page 52030 "Balie Order SubForm"
                     trigger OnValidate()
                     begin
                         if rec."Discount %" <> xrec."Discount %" then
-                            rec."Line Amount" := rec.Price - (rec."Discount %" / 100);
+                            rec."price" := rec.Price - (rec."Discount %" / 100);
                     end;
                 }
             }

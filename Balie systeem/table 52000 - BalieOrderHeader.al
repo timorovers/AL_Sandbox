@@ -11,7 +11,19 @@ table 52005 BalieOrderHeader
         field(1; "Balieordernummer"; Code[20])
         {
             Caption = 'Balie ordernummer';
-            NotBlank = true;
+            //NotBlank = true;
+
+            trigger OnValidate()
+            var
+                SalesSetup: Record "Sales & Receivables Setup";
+                NoSeriesMgt: Codeunit NoSeriesManagement;
+            begin
+                if "Balieordernummer" <> xRec."Balieordernummer" then begin
+                    SalesSetup.Get();
+                    NoSeriesMgt.TestManual(SalesSetup."BalieOrderNoS");
+                    "No. Series" := '';
+                end;
+            end;
         }
         field(5; "Betaalmethode"; Enum Betaalmethode)
         {
@@ -29,6 +41,7 @@ table 52005 BalieOrderHeader
         {
             DataClassification = ToBeClassified;
         }
+
 
 
 
@@ -138,8 +151,15 @@ table 52005 BalieOrderHeader
 
 
     trigger OnInsert()
+    var
+        SalesSetup: Record "Sales & Receivables Setup";
+        NoSeriesMgt: Codeunit NoSeriesManagement;
     begin
-        InitInsert;
+        if Balieordernummer = '' then begin
+            SalesSetup.Get();
+            SalesSetup.TestField(BalieOrderNoS);
+            NoSeriesMgt.InitSeries(SalesSetup.BalieOrderNoS, xRec."No. Series", 0D, Balieordernummer, "No. Series");
+        end;
     end;
 
     trigger OnModify()
