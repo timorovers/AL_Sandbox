@@ -58,6 +58,7 @@ page 52030 "Balie Order SubForm"
                     Caption = 'Discount %';
                     ApplicationArea = All;
                     DecimalPlaces = 0 : 3;
+                    Visible = false;
                 }
 
                 field(Price; rec.Price)
