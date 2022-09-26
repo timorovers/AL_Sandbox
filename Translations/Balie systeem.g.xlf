@@ -473,6 +473,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2724772011 - Control 381063380 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control BalieOrderLines - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2724772011 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Algemeen</source>
           <note from="Developer" annotates="general" priority="2"></note>

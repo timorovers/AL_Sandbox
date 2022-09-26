@@ -38,13 +38,6 @@ page 52000 BalieorderCard
                     Caption = 'Bill-to Customer No.';
                     ApplicationArea = All;
                     TableRelation = Customer;
-                    // trigger OnValidate()
-                    // begin
-                    //     if rec."Bill-to Customer No." <> xrec."Bill-to Customer No." then begin
-                    //         CurrPage.Update();
-                    //     end;
-                    // end;
-
                 }
 
                 field("Bill-to Name"; rec."Bill-to Name")
@@ -81,6 +74,7 @@ page 52000 BalieorderCard
                 ApplicationArea = Basic, Suite;
                 Editable = true;
                 SubPageLink = BalieOrderNummer = field(Balieordernummer);
+                Caption = 'Lines';
 
             }
         }
