@@ -28,7 +28,7 @@ page 52000 BalieorderCard
 
 
                 }
-                field(Betaalmethode; rec.Betaalmethode)
+                field(PaymentMethod; rec.PaymentMethod)
                 {
                     Caption = 'Betaalmethode';
                     ApplicationArea = All;

@@ -20,7 +20,7 @@ table 52010 "BalieOrderLine"
             NotBlank = false;
 
         }
-        field(5; "Betaalmethode"; enum Betaalmethode)
+        field(5; "PaymentMethod"; enum PaymentMethod)
         {
             Caption = 'Betaalmethode';
         }

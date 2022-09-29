@@ -18,7 +18,7 @@ page 50020 "BalieOrderLines"
                     Caption = 'Balie ordernummer';
                     TableRelation = "BalieOrderHeader".Balieordernummer WHERE(Balieordernummer = FIELD(BalieOrderNummer));
                 }
-                field("Betaalmethode"; rec."Betaalmethode")
+                field("PaymentMethod"; rec."PaymentMethod")
                 {
                     Caption = 'Document Type';
                     ApplicationArea = All;

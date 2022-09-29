@@ -53,11 +53,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field Balieordernummer - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1411659286 - Field 317904135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Betaalmethode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field Betaalmethode - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 1411659286 - Field 831017837 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bill-to Address</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -88,6 +83,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field OrderStatus - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1411659286 - Field 200753951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Betaalmethode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field PaymentMethod - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1411659286 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -102,11 +102,6 @@
           <source>Balie ordernummer</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderLine - Field BalieOrderNummer - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 330915325 - Field 317904135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Betaalmethode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderLine - Field Betaalmethode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 330915325 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
@@ -133,6 +128,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderLine - Field Line number - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 330915325 - Field 200753951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Betaalmethode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderLine - Field PaymentMethod - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 330915325 - Field 3635338911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Price</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -152,246 +152,6 @@
           <source></source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderSettings - Field BalieOrderNoS - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2190365927 - Field 3848865237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DaysRemaining</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Holidays - Field DaysRemaining - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2190365927 - Field 553958374 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DaysTaken</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Holidays - Field DaysTaken - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2190365927 - Field 2263534167 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DaysTotal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Holidays - Field DaysTotal - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2190365927 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Holidays - Field Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2190365927 - Field 2666052267 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Remarks</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Holidays - Field Remarks - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3150234936 - Field 1498446062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Werknemer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursHeader - Field Employee - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3150234936 - Field 2884976045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Einddatum</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursHeader - Field Enddate - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3150234936 - Field 3335627562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>HolidaysLeft</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursHeader - Field HolidaysLeft - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3150234936 - Field 4137698392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Urenstaat nr.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursHeader - Field Nr - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3150234936 - Field 2349485384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Begindatum</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursHeader - Field Startdate - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>HoursLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 3170049380 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Klant moet betalen</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field chargeable - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Omschrijving</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Description - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 3877369878 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Di</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Dinsdag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 387943960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Do</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Donderdag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 2884976045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Enddate</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Enddate - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Line No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Line No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 925064339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ma</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Maandag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 4137698392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Nr</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Nr - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 1482537683 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Project nr.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Projectnr - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 2529776650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Project taak nr.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Projecttaaknr - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Quantity</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Quantity - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 3895784779 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Afwezigheid reden</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field redenafwezigheid - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 348912950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Resource</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Resource - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 1018370567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Soort</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Soort - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 2349485384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Startdate</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Startdate - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 2642451359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Time Sheet No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Time Sheet No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 346344467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Total Quantity</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Total Quantity - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 1397217687 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Vr</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Vrijdag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 2112183014 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Wo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Woensdag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 4262015542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Za</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Zaterdag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 315065215 - Field 1288195051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Zo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLine - Field Zondag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 3170049380 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Doorbelast naar klant</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field chargeable - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Omschrijving</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field Description - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 3877369878 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Di</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field Dinsdag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 387943960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Do</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field Donderdag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Line No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field Line No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 925064339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ma</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field Maandag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 4137698392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Nr</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field Nr - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 1482537683 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Project nr.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field Projectnr - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 2529776650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Project taak nr.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field Projecttaaknr - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 3895784779 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Afwezigheid reden</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field redenafwezigheid - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 348912950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Resource</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field Resource - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 1018370567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Soort</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field Soort - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 2642451359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Time Sheet No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field Time Sheet No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 346344467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Total Quantity</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field Total Quantity - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 1397217687 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Vr</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field Vrijdag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 3801935018 - Field 2112183014 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Wo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table HoursLines - Field Woensdag - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 949364537 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lines</source>
@@ -488,11 +248,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control Balieordernummer - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2724772011 - Control 317904135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Betaalmethode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control Betaalmethode - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 2724772011 - Control 831017837 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bill-to Address</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -517,6 +272,11 @@
           <source>Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control OrderStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2724772011 - Control 200753951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Betaalmethode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control PaymentMethod - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2724772011 - Control 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Boekingsdatum</source>
@@ -553,10 +313,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderLines - Control BalieOrderNummer - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 381063380 - Control 317904135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 381063380 - Control 200753951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderLines - Control Betaalmethode - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderLines - Control PaymentMethod - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2571222393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balie orders</source>
@@ -583,6 +343,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Control OrderStatus - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2571222393 - Control 200753951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Betaalmethode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Control PaymentMethod - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2571222393 - Control 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting date</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -597,186 +362,6 @@
           <source>Test report</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Action Test Report - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2190365927 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Holidays</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Holidays - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2190365927 - Control 3848865237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Dagen over</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Holidays - Control DaysRemaining - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2190365927 - Control 553958374 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Dagen opgenomen</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Holidays - Control DaysTaken - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2190365927 - Control 2263534167 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Dagen in totaal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Holidays - Control DaysTotal - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2190365927 - Control 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Naam</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Holidays - Control Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2190365927 - Control 2666052267 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Remarks</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Holidays - Control Remarks - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2118476289 - Control 1498446062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Werknemer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursCard - Control Employee - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2118476289 - Control 2884976045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Eindatum</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursCard - Control Enddate - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2118476289 - Control 4137698392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Nr</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursCard - Control Nr - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2118476289 - Control 2349485384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Start datum</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursCard - Control Startdate - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2118476289 - Action 4038240943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Holidays</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursCard - Action Nuke - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3801935018 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Rope hours lines</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursLines - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3801935018 - Control 925064339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ma</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursLines - Control Maandag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3801935018 - Control 4137698392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Nr</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursLines - Control Nr - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3801935018 - Control 1018370567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Soort</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursLines - Control Soort - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3546943283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Lines</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursSubform - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3546943283 - Control 3170049380 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Klant moet betalen</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursSubform - Control chargeable - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3546943283 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Omschrijving</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursSubform - Control Description - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3546943283 - Control 3877369878 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Di</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursSubform - Control Dinsdag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3546943283 - Control 387943960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Do</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursSubform - Control Donderdag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3546943283 - Control 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Line no</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursSubform - Control Line No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3546943283 - Control 925064339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ma</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursSubform - Control Maandag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3546943283 - Control 1482537683 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Projectnr</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursSubform - Control Projectnr - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3546943283 - Control 2529776650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Project taaknr</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursSubform - Control Projecttaaknr - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3546943283 - Control 1018370567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Soort</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursSubform - Control Soort - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3546943283 - Control 346344467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Totaal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursSubform - Control Total Quantity - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3546943283 - Control 1397217687 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Vr</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursSubform - Control Vrijdag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3546943283 - Control 2112183014 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Wo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursSubform - Control Woensdag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3546943283 - Control 4262015542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Za</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursSubform - Control Zaterdag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3546943283 - Control 1288195051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Zo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page HoursSubform - Control Zondag - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2732474411 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Rope hours</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page RopeHoursList - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2732474411 - Control 1498446062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Werknemer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page RopeHoursList - Control Employee - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2732474411 - Control 2884976045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Eind datum</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page RopeHoursList - Control Enddate - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2732474411 - Control 4137698392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Nr</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page RopeHoursList - Control Nr - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2732474411 - Control 2349485384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Start datum</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page RopeHoursList - Control Startdate - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2732474411 - Action 2190365927 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Holidays</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page RopeHoursList - Action Holidays - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 4102490205 - ReportDataItem 1411659286 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balie order</source>
@@ -798,60 +383,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesReceivablesSetupPageExt - Control BalieOrderNoS - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1353101899 - Control 2493127703 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2244875407">
-          <source>Klant moet betalen</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TimeSheetSubfromext - Control Factureerbaar - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 1353101899 - Control 3558884906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2244875407">
-          <source>Werksoort</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TimeSheetSubfromext - Control Werksoort - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 1353101899 - Control 1994964448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2244875407">
-          <source>Klant</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TimeSheetSubfromext - Control Customer - Property Caption</note>
-        </trans-unit>
         <trans-unit id="TableExtension 2647506971 - Field 2644973545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
           <source>Balie order nos</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesReceivablesSetupExt - Field BalieOrderNoS - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 594642391 - Field 1994964448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2062634808">
-          <source>Klant</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TimeSheetLineExt - Field Customer - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 594642391 - Field 2493127703 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2062634808">
-          <source>Klant moet betalen</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TimeSheetLineExt - Field Factureerbaar - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 594642391 - Field 3558884906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2062634808">
-          <source>Werksoort</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TimeSheetLineExt - Field Werksoort - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 317904135 - EnumValue 1641175220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Apple Pay</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Betaalmethode - EnumValue Apple Pay - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 317904135 - EnumValue 3982527967 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Contant</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Betaalmethode - EnumValue Contant - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 317904135 - EnumValue 2286971068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Op rekening</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Betaalmethode - EnumValue Op rekening - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 317904135 - EnumValue 325008777 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Pin</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Betaalmethode - EnumValue Pin - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1502039190 - EnumValue 57370450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Archived</source>
@@ -867,6 +402,26 @@
           <source>Released</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Orderstatus - EnumValue Released - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 200753951 - EnumValue 1641175220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apple Pay</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum PaymentMethod - EnumValue Apple Pay - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 200753951 - EnumValue 229234099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cash</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum PaymentMethod - EnumValue Cash - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 200753951 - EnumValue 2286971068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Op rekening</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum PaymentMethod - EnumValue Op rekening - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 200753951 - EnumValue 325008777 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum PaymentMethod - EnumValue Pin - Property Caption</note>
         </trans-unit>
       </group>
     </body>

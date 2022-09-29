@@ -61,6 +61,6 @@ report 50000 BalieOrderReport
     }
     var
         Balieordernummer: integer;
-        Betaalmethode: enum Betaalmethode;
+        Betaalmethode: enum PaymentMethod;
 
 }

@@ -25,7 +25,7 @@ table 52005 BalieOrderHeader
                 end;
             end;
         }
-        field(5; "Betaalmethode"; Enum Betaalmethode)
+        field(5; "PaymentMethod"; Enum PaymentMethod)
         {
             Caption = 'Betaalmethode';
         }

@@ -38,6 +38,11 @@ page 52003 "BalieOrderList"
                     ApplicationArea = All;
                     StyleExpr = StatusStyleTxt;
                 }
+                field(PaymentMethod; rec.PaymentMethod)
+                {
+                    Caption = 'Betaalmethode';
+                    ApplicationArea = All;
+                }
                 field(Notitie; rec.Notitie)
                 {
                     Caption = 'Note';
