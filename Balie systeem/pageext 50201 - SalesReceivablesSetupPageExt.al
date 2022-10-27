@@ -1,4 +1,4 @@
-pageextension 50200 SalesReceivablesSetupPageExt extends "Sales & Receivables Setup"
+pageextension 50201 SalesReceivablesSetupPageExt extends "Sales & Receivables Setup"
 {
     layout
     {
