@@ -114,6 +114,11 @@ table 52005 BalieOrderHeader
             FieldClass = FlowField;
             CalcFormula = count(BalieOrderHeader);
         }
+        field(55; ShipmentCostsIncluded; Boolean)
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'Shipment Costs Included';
+        }
 
     }
     keys

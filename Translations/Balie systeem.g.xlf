@@ -93,6 +93,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field Posting Date - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1411659286 - Field 2897843820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Costs Included</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field ShipmentCostsIncluded - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 330915325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balie order line</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -223,6 +228,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieCue - Control TotaalBalieOrders - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2724772011 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Report,Approve,Release,Posting,Prepare,Order,Request Approval,History,Print/Send,Navigate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Property PromotedActionCategories</note>
+        </trans-unit>
         <trans-unit id="Page 2724772011 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>BalieOrder</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -259,7 +269,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control Bill-to Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2724772011 - Control 2033646112 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Notitie</source>
+          <source>Note</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control Notitie - Property Caption</note>
         </trans-unit>
@@ -278,10 +288,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control Posting Date - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2724772011 - Control 2897843820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Costs Included</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control ShipmentCostsIncluded - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2724772011 - Action 2310509544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Additional text</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Action AdditionalText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2724772011 - Action 4038240943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>☢️ Nuke</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Action Nuke - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2724772011 - Action 2282416948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Post</source>

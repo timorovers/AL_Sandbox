@@ -65,8 +65,13 @@ page 52000 BalieorderCard
                 }
                 field(Notitie; rec.Notitie)
                 {
-                    Caption = 'Notitie';
+                    Caption = 'Note';
                     ApplicationArea = All;
+                }
+                field(ShipmentCostsIncluded; rec.ShipmentCostsIncluded)
+                {
+                    ApplicationArea = all;
+                    Caption = 'Shipment Costs Included';
                 }
             }
             part(BalieOrderLines; "Balie Order SubForm")
@@ -132,6 +137,15 @@ page 52000 BalieorderCard
 
                 end;
 
+            }
+            action(Nuke)
+            {
+                ApplicationArea = all;
+                Caption = '☢️ Nuke';
+                trigger OnAction()
+                begin
+                    PostBalieOrder();
+                end;
             }
         }
     }

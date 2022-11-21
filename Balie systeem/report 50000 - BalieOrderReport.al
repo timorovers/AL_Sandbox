@@ -2,7 +2,6 @@ report 50000 BalieOrderReport
 {
     DefaultLayout = Word;
     WordLayout = 'Layouts./BalieOrderReport.docx';
-    //  RDLCLayout = './StandardSalesInvoice.rdlc';
     PreviewMode = PrintLayout;
     WordMergeDataItem = BalieOrderHeader;
     ApplicationArea = All;
