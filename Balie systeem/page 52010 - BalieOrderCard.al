@@ -7,6 +7,7 @@ page 52000 BalieorderCard
     SourceTable = BalieOrderHeader;
     Editable = true;
     AutoSplitKey = false;
+    ApplicationArea = all;
 
     layout
     {
@@ -31,19 +32,19 @@ page 52000 BalieorderCard
                 field(PaymentMethod; rec.PaymentMethod)
                 {
                     Caption = 'Betaalmethode';
-                    ApplicationArea = All;
+                    //ApplicationArea = All;
                 }
                 field("Bill-to Customer No."; rec."Bill-to Customer No.")
                 {
                     Caption = 'Bill-to Customer No.';
-                    ApplicationArea = All;
+                    //ApplicationArea = All;
                     TableRelation = Customer;
                 }
 
                 field("Bill-to Name"; rec."Bill-to Name")
                 {
-                    Caption = 'Klantnaam';
-                    ApplicationArea = All;
+                    Caption = 'Customer name';
+                    //ApplicationArea = All;
                     Editable = false;
                 }
 
@@ -51,32 +52,32 @@ page 52000 BalieorderCard
                 field("Bill-to Address"; rec."Bill-to Address")
                 {
                     Caption = 'Bill-to Address';
-                    ApplicationArea = All;
+                    //ApplicationArea = All;
                 }
                 field("Posting Date"; rec."Posting Date")
                 {
-                    Caption = 'Boekingsdatum';
-                    ApplicationArea = All;
+                    Caption = 'Posting date';
+                    //ApplicationArea = All;
                 }
                 field(OrderStatus; rec.OrderStatus)
                 {
                     Caption = 'Status';
-                    ApplicationArea = All;
+                    //ApplicationArea = All;
                 }
                 field(Notitie; rec.Notitie)
                 {
                     Caption = 'Note';
-                    ApplicationArea = All;
+                    //ApplicationArea = All;
                 }
                 field(ShipmentCostsIncluded; rec.ShipmentCostsIncluded)
                 {
-                    ApplicationArea = all;
+                    //ApplicationArea = all;
                     Caption = 'Shipment Costs Included';
                 }
             }
             part(BalieOrderLines; "Balie Order SubForm")
             {
-                ApplicationArea = Basic, Suite;
+                //ApplicationArea = Basic, Suite;
                 Editable = true;
                 SubPageLink = BalieOrderNummer = field(Balieordernummer);
                 Caption = 'Lines';
@@ -100,8 +101,10 @@ page 52000 BalieorderCard
                 var
                     BalieOrderReport: Report BalieOrderReport;
                 begin
+                    rec.TestField(Balieordernummer); //TRO|7-12-2022
                     BalieOrderReport.SetTableView(rec);
                     BalieOrderReport.RunModal();
+                    rec.setrange(Balieordernummer); //TRO|7-12-2022
                 end;
             }
             action("Post")
@@ -141,10 +144,11 @@ page 52000 BalieorderCard
             action(Nuke)
             {
                 ApplicationArea = all;
-                Caption = '☢️ Nuke';
+                Caption = 'Nuke';
+                Image = Warning;
                 trigger OnAction()
                 begin
-                    PostBalieOrder();
+                    CurrPage.Close();
                 end;
             }
         }

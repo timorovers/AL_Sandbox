@@ -264,7 +264,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control Bill-to Customer No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2724772011 - Control 240204966 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Klantnaam</source>
+          <source>Customer name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control Bill-to Name - Property Caption</note>
         </trans-unit>
@@ -284,7 +284,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control PaymentMethod - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2724772011 - Control 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Boekingsdatum</source>
+          <source>Posting date</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control Posting Date - Property Caption</note>
         </trans-unit>
@@ -299,7 +299,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Action AdditionalText - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2724772011 - Action 4038240943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>☢️ Nuke</source>
+          <source>Nuke</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Action Nuke - Property Caption</note>
         </trans-unit>
@@ -377,11 +377,6 @@
           <source>Test report</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Action Test Report - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2846845903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>TRO Chart</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page TRO Chart - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 4102490205 - ReportDataItem 1411659286 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balie order</source>

@@ -6,14 +6,13 @@ report 50000 BalieOrderReport
     WordMergeDataItem = BalieOrderHeader;
     ApplicationArea = All;
     UsageCategory = ReportsAndAnalysis;
-    Extensible = true;
 
     dataset
     {
         dataitem(BalieOrderHeader; BalieOrderHeader)
         {
-            // DataItemTableView = SORTING(Balieordernummer);
-            // RequestFilterFields = "Balieordernummer";
+            DataItemTableView = SORTING(Balieordernummer);
+            RequestFilterFields = "Balieordernummer", "Bill-to Customer No.";
             RequestFilterHeading = 'Balie order';
             column(Balieordernummer; Balieordernummer)
             { }
@@ -31,6 +30,8 @@ report 50000 BalieOrderReport
             {
                 DataItemLink = balieordernummer = FIELD(Balieordernummer);
                 DataItemLinkReference = BalieOrderHeader;
+                DataItemTableView = SORTING(BalieOrderNummer, "Line number");
+
                 column(LineNo_Line; "Line number")
                 {
                 }

@@ -67,8 +67,11 @@ page 52003 "BalieOrderList"
                 var
                     BalieOrderReport: Report BalieOrderReport;
                 begin
+                    rec.TestField(Balieordernummer); //TRO|7-12-2022
                     BalieOrderReport.SetTableView(rec);
                     BalieOrderReport.RunModal();
+                    rec.setrange(Balieordernummer); //TRO|7-12-2022
+
                 end;
             }
 
