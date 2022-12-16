@@ -76,6 +76,7 @@ page 52003 "BalieOrderList"
             }
 
         }
+
     }
     var
         StatusStyleTxt: Text;
@@ -84,7 +85,6 @@ page 52003 "BalieOrderList"
     begin
         StatusStyleTxt := rec.GetStatusStyleText();
     end;
-
 }
 
 

@@ -7,7 +7,6 @@ page 52000 BalieorderCard
     SourceTable = BalieOrderHeader;
     Editable = true;
     AutoSplitKey = false;
-    ApplicationArea = all;
 
     layout
     {
@@ -81,7 +80,7 @@ page 52000 BalieorderCard
                 Editable = true;
                 SubPageLink = BalieOrderNummer = field(Balieordernummer);
                 Caption = 'Lines';
-
+                ApplicationArea = all;
             }
         }
     }
