@@ -119,6 +119,11 @@ table 52005 BalieOrderHeader
             DataClassification = ToBeClassified;
             Caption = 'Shipment Costs Included';
         }
+        field(60; InputText; text[200])
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'InputText';
+        }
 
     }
     keys

@@ -68,6 +68,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field Bill-to Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1411659286 - Field 1987256405 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InputText</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field InputText - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1411659286 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No. Series</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -298,10 +303,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Action AdditionalText - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2724772011 - Action 4038240943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2724772011 - Action 3529216860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Nuke</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Action Nuke - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Action Nukee - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2724772011 - Action 2282416948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Post</source>
@@ -314,7 +319,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Action Test Report - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2724772011 - Action 3150094508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Preview</source>
+          <source>Preview1</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Action Test Report - Property Caption</note>
         </trans-unit>
@@ -387,11 +392,6 @@
           <source>BalieQuery</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query BalieOrderQuery - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3146437395 - Action 3034411564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
-          <source>Generic Chart</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Generic chart customer - Action GenChart - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3037611578 - Control 3561296292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
           <source>Balie order gegevens</source>

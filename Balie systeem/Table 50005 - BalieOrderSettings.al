@@ -16,6 +16,7 @@ table 50005 BalieOrderSettings
         key(PK; BalieOrderNoS)
         {
             Clustered = true;
+            Enabled = true; //TEST|TRO|Tags
         }
     }
 }

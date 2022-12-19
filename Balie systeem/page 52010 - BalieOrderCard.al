@@ -13,6 +13,23 @@ page 52000 BalieorderCard
     {
         area(content)
         {
+            group(Input)
+            {
+                usercontrol(TestWebSite; "Microsoft.Dynamics.Nav.Client.WebPageViewer")
+                {
+                    ApplicationArea = All;
+                }
+                field(InputText; rec.InputText)
+                {
+                    ApplicationArea = All;
+                    MultiLine = true;
+
+                    trigger OnValidate()
+                    begin
+                        CurrPage.TestWebSite.SetContent(rec.InputText);
+                    end;
+                }
+            }
             group(General)
             {
                 Caption = 'Algemeen';
@@ -93,7 +110,7 @@ page 52000 BalieorderCard
             action("Test Report")
             {
                 ApplicationArea = Basic, Suite;
-                Caption = 'Preview';
+                Caption = 'Preview1';
                 Ellipsis = true;
                 Image = TestReport;
                 ToolTip = 'View a test report so that you can find and correct any errors before you perform the actual posting of the journal or document.';
@@ -141,7 +158,7 @@ page 52000 BalieorderCard
                 end;
 
             }
-            action(Nuke)
+            action(Nukee)
             {
                 ApplicationArea = all;
                 Caption = 'Nuke';
