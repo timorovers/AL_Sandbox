@@ -122,7 +122,7 @@ table 52005 BalieOrderHeader
         field(60; InputText; text[200])
         {
             DataClassification = ToBeClassified;
-            Caption = 'InputText';
+            Caption = 'Type here';
         }
 
     }

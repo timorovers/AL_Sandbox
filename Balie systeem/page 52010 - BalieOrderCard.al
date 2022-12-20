@@ -26,7 +26,7 @@ page 52000 BalieorderCard
 
                     trigger OnValidate()
                     begin
-                        CurrPage.TestWebSite.SetContent(rec.InputText);
+                        CurrPage.TestWebSite.SetContent('<h1>This is HTML, please insert your Balie Order</h1>');
                     end;
                 }
             }

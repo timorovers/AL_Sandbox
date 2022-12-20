@@ -69,7 +69,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field Bill-to Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1411659286 - Field 1987256405 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>InputText</source>
+          <source>Type here</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field InputText - Property Caption</note>
         </trans-unit>
