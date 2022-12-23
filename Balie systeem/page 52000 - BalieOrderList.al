@@ -16,37 +16,30 @@ page 52003 "BalieOrderList"
         {
             repeater(Control1)
             {
-                ShowCaption = false;
                 field(Balieordernummer; rec.Balieordernummer)
                 {
-                    Caption = 'Balie order nr';
-                    ApplicationArea = All;
+                    Caption = 'Balie Order nr';
                 }
                 field("Bill-to Name"; rec."Bill-to Name")
                 {
                     Caption = 'Customer name';
-                    ApplicationArea = All;
                 }
                 field("Posting Date"; rec."Posting Date")
                 {
                     Caption = 'Posting date';
-                    ApplicationArea = All;
                 }
                 field(OrderStatus; rec.OrderStatus)
                 {
                     Caption = 'Status';
-                    ApplicationArea = All;
                     StyleExpr = StatusStyleTxt;
                 }
                 field(PaymentMethod; rec.PaymentMethod)
                 {
-                    Caption = 'Betaalmethode';
-                    ApplicationArea = All;
+                    Caption = 'Payment method';
                 }
                 field(Notitie; rec.Notitie)
                 {
                     Caption = 'Note';
-                    ApplicationArea = All;
                 }
             }
         }
@@ -58,9 +51,7 @@ page 52003 "BalieOrderList"
         {
             action("Test Report")
             {
-                ApplicationArea = Basic, Suite;
                 Caption = 'Test report';
-                Ellipsis = true;
                 Image = TestReport;
                 ToolTip = 'View a test report so that you can find and correct any errors before you perform the actual posting of the journal or document.';
                 trigger OnAction()
@@ -71,6 +62,7 @@ page 52003 "BalieOrderList"
                     BalieOrderReport.SetTableView(rec);
                     BalieOrderReport.RunModal();
                     rec.setrange(Balieordernummer); //TRO|7-12-2022
+                    CurrPage.Update();
 
                 end;
             }
