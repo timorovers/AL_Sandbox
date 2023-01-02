@@ -26,7 +26,7 @@ page 52000 BalieorderCard
 
                     trigger OnValidate()
                     begin
-                        CurrPage.TestWebSite.SetContent('<h1>This is HTML, please insert your Balie Order</h1>');
+                        CurrPage.TestWebSite.SetContent('<sup>This is message in html</sup> <p>please insert your Balie Order</p>');
                     end;
                 }
             }
@@ -110,7 +110,7 @@ page 52000 BalieorderCard
             action("Test Report")
             {
                 ApplicationArea = Basic, Suite;
-                Caption = 'Preview1';
+                Caption = 'Preview';
                 Ellipsis = true;
                 Image = TestReport;
                 ToolTip = 'View a test report so that you can find and correct any errors before you perform the actual posting of the journal or document.';
@@ -121,7 +121,7 @@ page 52000 BalieorderCard
                     rec.TestField(Balieordernummer); //TRO|7-12-2022
                     BalieOrderReport.SetTableView(rec);
                     BalieOrderReport.RunModal();
-                    rec.setrange(Balieordernummer); //TRO|7-12-2022
+                    rec.setrange( Balieordernummer); //TRO|7-12-2022
                 end;
             }
             action("Post")
