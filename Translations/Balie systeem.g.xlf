@@ -388,11 +388,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report BalieOrderReport - ReportDataItem BalieOrderHeader - Property RequestFilterHeading</note>
         </trans-unit>
-        <trans-unit id="Report 3983241690 - ReportDataItem 1411659286 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Balie order</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report BalieOrderReport_rdl - ReportDataItem BalieOrderHeader - Property RequestFilterHeading</note>
-        </trans-unit>
         <trans-unit id="Query 434919009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>BalieQuery</source>
           <note from="Developer" annotates="general" priority="2"></note>

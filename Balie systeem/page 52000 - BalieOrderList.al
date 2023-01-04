@@ -69,6 +69,7 @@ page 52003 "BalieOrderList"
 
         }
     }
+
     var
         StatusStyleTxt: Text;
 

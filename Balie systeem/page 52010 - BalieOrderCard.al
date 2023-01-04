@@ -121,7 +121,7 @@ page 52000 BalieorderCard
                     rec.TestField(Balieordernummer); //TRO|7-12-2022
                     BalieOrderReport.SetTableView(rec);
                     BalieOrderReport.RunModal();
-                    rec.setrange( Balieordernummer); //TRO|7-12-2022
+                    rec.setrange(Balieordernummer); //TRO|7-12-2022
                 end;
             }
             action("Post")
@@ -168,6 +168,7 @@ page 52000 BalieorderCard
                     CurrPage.Close();
                 end;
             }
+
         }
     }
     local procedure PostBalieOrder()
