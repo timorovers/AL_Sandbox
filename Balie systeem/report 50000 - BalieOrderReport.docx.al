@@ -48,6 +48,9 @@ report 50000 BalieOrderReport
                 column(Price; Price)
                 {
                 }
+                column(Line_Amount; "Line Amount")
+                {
+                }
             }
             dataitem(AdditionalText; BalieOrderHeader)
             {
