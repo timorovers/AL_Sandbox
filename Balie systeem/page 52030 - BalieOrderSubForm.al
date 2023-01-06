@@ -76,8 +76,8 @@ page 52030 "Balie Order SubForm"
                     Caption = 'Line amount';
                     trigger OnValidate()
                     begin
-                        if rec."Discount %" <> xrec."Discount %" then
-                            rec."price" := rec.Price - (rec."Discount %" / 100);
+                        if rec.Quantity <> xRec.Quantity then
+                            rec."Line Amount" := rec.Quantity * rec.Price
                     end;
                 }
             }

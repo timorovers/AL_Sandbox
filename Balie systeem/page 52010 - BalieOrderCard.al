@@ -158,7 +158,7 @@ page 52000 BalieorderCard
                 end;
 
             }
-            action(Nukee)
+            action(Nuke)
             {
                 ApplicationArea = all;
                 Caption = 'Nuke';

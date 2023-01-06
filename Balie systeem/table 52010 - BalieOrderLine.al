@@ -62,6 +62,7 @@ table 52010 "BalieOrderLine"
         }
         field(40; "Line Amount"; Decimal)
         {
+            Caption = 'Line amount';
         }
 
     }
