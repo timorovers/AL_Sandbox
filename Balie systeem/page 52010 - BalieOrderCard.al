@@ -108,11 +108,15 @@ page 52000 BalieorderCard
                 trigger OnAction()
                 var
                     BalieOrderReport: Report BalieOrderReport;
+                    Balieline: record BalieOrderLine;
+                    BalieHeader: record BalieOrderHeader;
                 begin
-                    rec.TestField(Balieordernummer); //TRO|7-12-2022
+                    rec.TestField(Balieordernummer);
                     BalieOrderReport.SetTableView(rec);
                     BalieOrderReport.RunModal();
-                    rec.setrange(Balieordernummer); //TRO|7-12-2022
+                    Balieline.SetRange(BalieOrderNummer, BalieHeader.Balieordernummer);
+                    BalieHeader.Get(BalieHeader.Balieordernummer);
+                    Commit();
                 end;
             }
             action("Post")
