@@ -24,7 +24,7 @@
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>2.13615in</Height>
+                  <Height>2.38615in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -520,6 +520,7 @@
                                                   </TextRun>
                                                 </TextRuns>
                                                 <Style>
+                                                  <TextAlign>=IIF(Left(Fields!ItemNo.Value, 1) = "S", 20, 0)</TextAlign>
                                                   <LineHeight>=IIF(Left(Fields!ItemNo.Value, 1) = "S", 20, 0)</LineHeight>
                                                 </Style>
                                               </Paragraph>
@@ -531,7 +532,7 @@
                                               </Border>
                                               <BackgroundColor>=Switch(Fields!ItemNo.Value = "1896-S","Red",
 FIelds!ItemNo.Value = "1900-S","CornflowerBlue")</BackgroundColor>
-                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingLeft>=IIF(Left(Fields!ItemNo.Value, 1) = "S", 20, 0)</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
                                               <PaddingTop>2pt</PaddingTop>
                                               <PaddingBottom>2pt</PaddingBottom>
@@ -634,6 +635,79 @@ FIelds!ItemNo.Value = "1900-S","CornflowerBlue")</BackgroundColor>
                                       </TablixCell>
                                     </TablixCells>
                                   </TablixRow>
+                                  <TablixRow>
+                                    <Height>0.25in</Height>
+                                    <TablixCells>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="Textbox8">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style />
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Textbox8</rd:DefaultName>
+                                            <Style>
+                                              <Border>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="Description1">
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Fields!Description.Value</Value>
+                                                    <Style>
+                                                      <FontStyle>=IIF(Left(Fields!ItemNo.Value, 1) = "S", "Italic", "Normal")</FontStyle>
+                                                      <FontFamily>=iif(Fields!ItemNo.Value="2000-S","Magneto", "Arial")</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style>
+                                                  <TextAlign>=IIF(Left(Fields!ItemNo.Value, 1) = "S", 20, 0)</TextAlign>
+                                                </Style>
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <rd:DefaultName>Description1</rd:DefaultName>
+                                            <Style>
+                                              <Border>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>=IIF(Left(Fields!ItemNo.Value, 1) = "S", 20, 0)</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                          <ColSpan>4</ColSpan>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell />
+                                      <TablixCell />
+                                      <TablixCell />
+                                    </TablixCells>
+                                  </TablixRow>
                                 </TablixRows>
                               </TablixBody>
                               <TablixColumnHierarchy>
@@ -652,13 +726,25 @@ FIelds!ItemNo.Value = "1900-S","CornflowerBlue")</BackgroundColor>
                                   </TablixMember>
                                   <TablixMember>
                                     <Group Name="Details1" />
+                                    <TablixMembers>
+                                      <TablixMember>
+                                        <Visibility>
+                                          <Hidden>=IIF(Fields!ItemNo.Value = "",true,false)</Hidden>
+                                        </Visibility>
+                                      </TablixMember>
+                                      <TablixMember>
+                                        <Visibility>
+                                          <Hidden>=IIF(Fields!ItemNo.Value = "",false,true)</Hidden>
+                                        </Visibility>
+                                      </TablixMember>
+                                    </TablixMembers>
                                   </TablixMember>
                                 </TablixMembers>
                               </TablixRowHierarchy>
                               <DataSetName>DataSet_Result</DataSetName>
                               <Top>1.63615in</Top>
                               <Left>0in</Left>
-                              <Height>0.5in</Height>
+                              <Height>0.75in</Height>
                               <Width>6.49606in</Width>
                               <ZIndex>1</ZIndex>
                               <Style>
@@ -703,7 +789,7 @@ FIelds!ItemNo.Value = "1900-S","CornflowerBlue")</BackgroundColor>
             <DataSetName>DataSet_Result</DataSetName>
             <Top>0in</Top>
             <Left>0in</Left>
-            <Height>2.13615in</Height>
+            <Height>2.38615in</Height>
             <Width>8.26772in</Width>
             <Style>
               <Border>

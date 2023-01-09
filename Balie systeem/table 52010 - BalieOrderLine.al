@@ -44,7 +44,7 @@ table 52010 "BalieOrderLine"
         {
             Caption = 'Description';
             NotBlank = true;
-            TableRelation = Item;
+            //TableRelation = Item;
         }
         field(25; "Quantity"; integer)
         {

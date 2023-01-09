@@ -243,60 +243,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2724772011 - Control 381063380 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Lines</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control BalieOrderLines - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 2724772011 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Algemeen</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control General - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2724772011 - Control 142624955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Balie order nr</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control Balieordernummer - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2724772011 - Control 831017837 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bill-to Address</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control Bill-to Address - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2724772011 - Control 2965034906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bill-to Customer No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control Bill-to Customer No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2724772011 - Control 240204966 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Customer name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control Bill-to Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2724772011 - Control 2033646112 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Note</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control Notitie - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2724772011 - Control 1987093622 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Status</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control OrderStatus - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2724772011 - Control 200753951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Betaalmethode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control PaymentMethod - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2724772011 - Control 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Posting date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control Posting Date - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2724772011 - Control 2897843820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Shipment Costs Included</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BalieorderCard - Control ShipmentCostsIncluded - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2724772011 - Action 2310509544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Additional text</source>

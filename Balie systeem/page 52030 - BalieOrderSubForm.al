@@ -39,7 +39,7 @@ page 52030 "Balie Order SubForm"
                 field(Description; rec.Description)
                 {
                     Caption = 'Description';
-                    TableRelation = Item;
+                    //TableRelation = Item;
                     ApplicationArea = All;
                     trigger OnValidate()
                     begin

@@ -13,29 +13,11 @@ page 52000 BalieorderCard
     {
         area(content)
         {
-            group(Input)
-            {
-                usercontrol(TestWebSite; "Microsoft.Dynamics.Nav.Client.WebPageViewer")
-                {
-                    ApplicationArea = All;
-                }
-                field(InputText; rec.InputText)
-                {
-                    ApplicationArea = All;
-                    MultiLine = true;
-
-                    trigger OnValidate()
-                    begin
-                        CurrPage.TestWebSite.SetContent('<sup>This is message in html</sup> <p>please insert your Balie Order</p>');
-                    end;
-                }
-            }
             group(General)
             {
                 Caption = 'Algemeen';
                 field(Balieordernummer; rec.Balieordernummer)
                 {
-                    Caption = 'Balie order nr';
                     ApplicationArea = All;
                     TableRelation = "BalieOrderHeader".Balieordernummer WHERE(Balieordernummer = FIELD(BalieOrderNummer));
                     trigger OnValidate()
@@ -48,48 +30,38 @@ page 52000 BalieorderCard
                 }
                 field(PaymentMethod; rec.PaymentMethod)
                 {
-                    Caption = 'Betaalmethode';
                 }
                 field("Bill-to Customer No."; rec."Bill-to Customer No.")
                 {
-                    Caption = 'Bill-to Customer No.';
                     TableRelation = Customer;
                 }
 
                 field("Bill-to Name"; rec."Bill-to Name")
                 {
-                    Caption = 'Customer name';
                     Editable = false;
                 }
 
 
                 field("Bill-to Address"; rec."Bill-to Address")
                 {
-                    Caption = 'Bill-to Address';
                 }
                 field("Posting Date"; rec."Posting Date")
                 {
-                    Caption = 'Posting date';
                 }
                 field(OrderStatus; rec.OrderStatus)
                 {
-                    Caption = 'Status';
                 }
                 field(Notitie; rec.Notitie)
                 {
-                    Caption = 'Note';
                 }
                 field(ShipmentCostsIncluded; rec.ShipmentCostsIncluded)
                 {
-                    Caption = 'Shipment Costs Included';
                 }
             }
             part(BalieOrderLines; "Balie Order SubForm")
             {
                 Editable = true;
                 SubPageLink = BalieOrderNummer = field(Balieordernummer);
-                Caption = 'Lines';
-
             }
         }
     }

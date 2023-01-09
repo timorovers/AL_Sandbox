@@ -40,6 +40,7 @@ table 52005 BalieOrderHeader
         field(20; AdditionalText; blob)
         {
             DataClassification = ToBeClassified;
+            Caption = 'AdditionalText';
         }
 
 
@@ -113,6 +114,7 @@ table 52005 BalieOrderHeader
         {
             FieldClass = FlowField;
             CalcFormula = count(BalieOrderHeader);
+            Caption = 'AantalBalieOders';
         }
         field(55; ShipmentCostsIncluded; Boolean)
         {
