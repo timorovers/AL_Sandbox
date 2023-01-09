@@ -7,6 +7,7 @@ report 50000 BalieOrderReport
     WordMergeDataItem = BalieOrderHeader;
     ApplicationArea = All;
     UsageCategory = ReportsAndAnalysis;
+    EnableHyperlinks = true;
 
     dataset
     {
@@ -32,7 +33,9 @@ report 50000 BalieOrderReport
                 DataItemLink = balieordernummer = FIELD(Balieordernummer);
                 DataItemLinkReference = BalieOrderHeader;
                 DataItemTableView = SORTING(BalieOrderNummer, "Line number");
-
+                column(ItemNo; ItemNo)
+                {
+                }
                 column(LineNo_Line; "Line number")
                 {
                 }

@@ -49,19 +49,16 @@ page 52000 BalieorderCard
                 field(PaymentMethod; rec.PaymentMethod)
                 {
                     Caption = 'Betaalmethode';
-                    //ApplicationArea = All;
                 }
                 field("Bill-to Customer No."; rec."Bill-to Customer No.")
                 {
                     Caption = 'Bill-to Customer No.';
-                    //ApplicationArea = All;
                     TableRelation = Customer;
                 }
 
                 field("Bill-to Name"; rec."Bill-to Name")
                 {
                     Caption = 'Customer name';
-                    //ApplicationArea = All;
                     Editable = false;
                 }
 
@@ -69,32 +66,26 @@ page 52000 BalieorderCard
                 field("Bill-to Address"; rec."Bill-to Address")
                 {
                     Caption = 'Bill-to Address';
-                    //ApplicationArea = All;
                 }
                 field("Posting Date"; rec."Posting Date")
                 {
                     Caption = 'Posting date';
-                    //ApplicationArea = All;
                 }
                 field(OrderStatus; rec.OrderStatus)
                 {
                     Caption = 'Status';
-                    //ApplicationArea = All;
                 }
                 field(Notitie; rec.Notitie)
                 {
                     Caption = 'Note';
-                    //ApplicationArea = All;
                 }
                 field(ShipmentCostsIncluded; rec.ShipmentCostsIncluded)
                 {
-                    //ApplicationArea = all;
                     Caption = 'Shipment Costs Included';
                 }
             }
             part(BalieOrderLines; "Balie Order SubForm")
             {
-                //ApplicationArea = Basic, Suite;
                 Editable = true;
                 SubPageLink = BalieOrderNummer = field(Balieordernummer);
                 Caption = 'Lines';

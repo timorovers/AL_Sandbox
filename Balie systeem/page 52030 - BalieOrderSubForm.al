@@ -77,7 +77,7 @@ page 52030 "Balie Order SubForm"
                     trigger OnValidate()
                     begin
                         if rec.Quantity <> xRec.Quantity then
-                            rec."Line Amount" := rec.Quantity * rec.Price
+                            rec."Line Amount" := (rec.Quantity * rec.Price)
                     end;
                 }
             }
