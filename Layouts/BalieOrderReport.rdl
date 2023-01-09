@@ -680,7 +680,6 @@ FIelds!ItemNo.Value = "1900-S","CornflowerBlue")</BackgroundColor>
                                                     <Style>
                                                       <FontStyle>=IIF(Left(Fields!ItemNo.Value, 1) = "S", "Italic", "Normal")</FontStyle>
                                                       <FontFamily>=iif(Fields!ItemNo.Value="2000-S","Magneto", "Arial")</FontFamily>
-                                                      <FontSize>8pt</FontSize>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
