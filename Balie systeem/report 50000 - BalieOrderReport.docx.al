@@ -26,6 +26,8 @@ report 50000 BalieOrderReport
             { }
             column(Posting_Date; "Posting Date")
             { }
+            column(Shipmentdate; Shipmentdate)
+            { }
             column(Notitie; "Notitie")
             { }
             dataitem(Line; BalieOrderLine)

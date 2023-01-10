@@ -48,6 +48,9 @@ page 52000 BalieorderCard
                 field("Posting Date"; rec."Posting Date")
                 {
                 }
+                field(Shipmentdate; rec.Shipmentdate)
+                {
+                }
                 field(OrderStatus; rec.OrderStatus)
                 {
                 }

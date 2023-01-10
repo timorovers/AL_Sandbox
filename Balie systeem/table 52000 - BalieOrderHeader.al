@@ -126,6 +126,11 @@ table 52005 BalieOrderHeader
             DataClassification = ToBeClassified;
             Caption = 'Type here';
         }
+        field(65; Shipmentdate; Date)
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'Shipment date';
+        }
 
     }
     keys

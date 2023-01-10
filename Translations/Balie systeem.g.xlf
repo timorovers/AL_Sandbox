@@ -103,6 +103,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field ShipmentCostsIncluded - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1411659286 - Field 1822927432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field Shipmentdate - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 330915325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balie order line</source>
           <note from="Developer" annotates="general" priority="2"></note>
