@@ -31,7 +31,13 @@ table 52030 BalieOrderCueTable
             FieldClass = FlowField;
             CalcFormula = count(BalieOrderHeader);
         }
+        field(6; AverageCashPayment; Decimal)
+        {
+            FieldClass = FlowField;
+            CalcFormula = average(BalieOrderLine."Line Amount" where(PaymentMethod = filter(Cash)));
+        }
     }
+
 
     keys
     {

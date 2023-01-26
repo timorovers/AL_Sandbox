@@ -3,6 +3,11 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Balie systeem">
     <body>
       <group id="body">
+        <trans-unit id="Table 1829473532 - Field 1948571804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AverageCashPayment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderCueTable - Field AverageCashPayment - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1829473532 - Field 3333597367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>BalieOrdersGearchiveerd</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -218,6 +223,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieCue - Control BalieOrders - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3561296292 - Control 1948571804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Average cash payment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieCue - Control AverageCashPayment - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3561296292 - Control 3333597367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Archived</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -349,7 +359,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Query BalieOrderQuery - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3037611578 - Control 3561296292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
-          <source>Balie order gegevens</source>
+          <source>Balie order data</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension RoleCenterExtension - Control BalieCue - Property Caption</note>
         </trans-unit>

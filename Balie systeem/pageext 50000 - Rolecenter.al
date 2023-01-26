@@ -8,7 +8,7 @@ pageextension 50020 RoleCenterExtension extends "Business Manager Role Center"
             part(BalieCue; BalieCue)
             {
                 ApplicationArea = all;
-                Caption = 'Balie order gegevens';
+                Caption = 'Balie order data';
             }
         }
     }

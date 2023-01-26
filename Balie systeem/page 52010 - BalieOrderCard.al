@@ -132,10 +132,10 @@ page 52000 BalieorderCard
             {
                 ApplicationArea = all;
                 Caption = 'Nuke';
-                Image = Warning;
+                Image = SwitchCompanies;
                 trigger OnAction()
                 begin
-                    CurrPage.Close();
+                    Message('Check');
                 end;
             }
 
