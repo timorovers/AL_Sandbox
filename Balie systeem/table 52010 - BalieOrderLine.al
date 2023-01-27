@@ -23,6 +23,7 @@ table 52010 "BalieOrderLine"
         field(5; "PaymentMethod"; enum PaymentMethod)
         {
             Caption = 'Betaalmethode';
+            //aaa
         }
         field(10; "ItemNo"; code[50])
         {
