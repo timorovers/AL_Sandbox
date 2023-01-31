@@ -892,6 +892,7 @@
                                           <Style>
                                             <FontSize>9pt</FontSize>
                                           </Style>
+                                          <Visible>true</Visible>
                                         </ChartDataLabel>
                                         <ToolTip>#VALY</ToolTip>
                                         <Style />
@@ -902,6 +903,7 @@
                                       </ChartDataPoint>
                                     </ChartDataPoints>
                                     <Type>Shape</Type>
+                                    <Subtype>TreeMap</Subtype>
                                     <Style>
                                       <ShadowOffset>0pt</ShadowOffset>
                                     </Style>

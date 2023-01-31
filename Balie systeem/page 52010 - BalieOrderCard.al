@@ -25,8 +25,6 @@ page 52000 BalieorderCard
                         if rec.Balieordernummer <> xrec.Balieordernummer then
                             rec."Posting Date" := Today;
                     end;
-
-
                 }
                 field(PaymentMethod; rec.PaymentMethod)
                 {
@@ -40,8 +38,6 @@ page 52000 BalieorderCard
                 {
                     Editable = false;
                 }
-
-
                 field("Bill-to Address"; rec."Bill-to Address")
                 {
                 }
@@ -72,7 +68,6 @@ page 52000 BalieorderCard
     {
         area(Processing)
         {
-
             action("Test Report")
             {
                 ApplicationArea = Basic, Suite;
@@ -86,13 +81,15 @@ page 52000 BalieorderCard
                     Balieline: record BalieOrderLine;
                     BalieHeader: record BalieOrderHeader;
                 begin
-                    rec.TestField(Balieordernummer);
-                    BalieOrderReport.SetTableView(rec);
-                    BalieOrderReport.RunModal();
+                    BalieHeader.Get(rec.BalieOrderNummer);
                     Balieline.SetRange(BalieOrderNummer, BalieHeader.Balieordernummer);
-                    BalieHeader.Get(BalieHeader.Balieordernummer);
+                    BalieOrderReport.SetTableView(Balieline);
+                    BalieOrderReport.RunModal();
+                    rec.SetCurrentKey(Balieordernummer);
                     Commit();
                 end;
+
+
             }
             action("Post")
             {
@@ -100,10 +97,8 @@ page 52000 BalieorderCard
                 Caption = 'Post';
                 Ellipsis = true;
                 Image = Post;
-
                 trigger OnAction()
                 var
-
                 begin
                     PostBalieOrder();
                 end;
@@ -118,15 +113,11 @@ page 52000 BalieorderCard
                 var
                     lRecContracts: Record BalieOrderHeader;
                     EditorPage: page AdditionalText;
-
                 begin
                     lRecContracts.SetRange(Balieordernummer, rec.Balieordernummer);
                     EditorPage.SetTableView(lRecContracts);
                     EditorPage.run;
-
-
                 end;
-
             }
             action(Nuke)
             {
@@ -138,7 +129,6 @@ page 52000 BalieorderCard
                     Message('Check');
                 end;
             }
-
         }
     }
     local procedure PostBalieOrder()
@@ -156,6 +146,7 @@ page 52000 BalieorderCard
         SalesHeader.Modify();
         Message('1 Verkooporder %1 gemaakt %2', SalesHeader."No.", 'goed hè?');
     end;
+
 }
 
 
