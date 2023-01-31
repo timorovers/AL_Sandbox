@@ -49,6 +49,13 @@ table 52010 "BalieOrderLine"
         field(25; "Quantity"; integer)
         {
             Caption = 'Quantity';
+            trigger OnValidate()
+            begin
+                if rec.Quantity <> xRec.Quantity then
+                    "Line Amount" := Quantity * Price
+                else
+                    exit
+            end;
         }
         field(30; "Discount %"; Decimal)
         {
@@ -63,8 +70,6 @@ table 52010 "BalieOrderLine"
         field(40; "Line Amount"; Decimal)
         {
             Caption = 'Line amount';
-            // FieldClass = FlowField;
-            // CalcFormula = sum(BalieOrderLine.Price);
         }
 
     }
