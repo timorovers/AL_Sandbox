@@ -13,7 +13,6 @@ table 52030 BalieOrderCueTable
         {
             FieldClass = FlowField;
             CalcFormula = count(BalieOrderHeader where(OrderStatus = FILTER(Released)));
-
         }
         field(3; BalieOrdersOpen; Integer)
         {
@@ -25,13 +24,17 @@ table 52030 BalieOrderCueTable
             FieldClass = FlowField;
             CalcFormula = count(BalieOrderHeader where(OrderStatus = FILTER(Archived)));
         }
-
-        field(5; TotaalBalieOrders; Integer)
+        field(5; BalieOrdersCancelled; Integer)
+        {
+            FieldClass = FlowField;
+            CalcFormula = count(BalieOrderHeader where(OrderStatus = filter(Cancelled)));
+        }
+        field(6; TotaalBalieOrders; Integer)
         {
             FieldClass = FlowField;
             CalcFormula = count(BalieOrderHeader);
         }
-        field(6; AverageCashPayment; Decimal)
+        field(7; AverageCashPayment; Decimal)
         {
             FieldClass = FlowField;
             CalcFormula = average(BalieOrderLine."Line Amount" where(PaymentMethod = filter(Cash)));

@@ -8,6 +8,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderCueTable - Field AverageCashPayment - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1829473532 - Field 1252957607 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BalieOrdersCancelled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderCueTable - Field BalieOrdersCancelled - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1829473532 - Field 3333597367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>BalieOrdersGearchiveerd</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -308,6 +313,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2571222393 - Method 40260118 - NamedType 2861956060" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balie Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Method ExportBalieOrders - NamedType BalieOrderHeaderLbL</note>
+        </trans-unit>
+        <trans-unit id="Page 2571222393 - Method 40260118 - NamedType 2499179930" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balie Orders_%1_%2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Method ExportBalieOrders - NamedType ExcelFileName</note>
+        </trans-unit>
         <trans-unit id="Page 2571222393 - Control 142624955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balie Order nr</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -337,6 +352,11 @@
           <source>Posting date</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Control Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2571222393 - Action 460504864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export to Excel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Action ExporToExcel - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2571222393 - Action 3150094508 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>View a test report so that you can find and correct any errors before you perform the actual posting of the journal or document.</source>
@@ -377,6 +397,11 @@
           <source>Archived</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Orderstatus - EnumValue Archived - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1502039190 - EnumValue 4069904181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancelled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Orderstatus - EnumValue Cancelled - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1502039190 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open</source>

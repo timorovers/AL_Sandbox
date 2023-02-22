@@ -123,13 +123,17 @@ page 52000 BalieorderCard
             {
                 ApplicationArea = all;
                 Caption = 'Nuke';
-                Image = SwitchCompanies;
+                Image = Post;
                 trigger OnAction()
                 begin
-                    Message('Check');
+                    CurrPage.Close();
+                    Message('Page closed haha');
                 end;
             }
+
         }
+
+
     }
     local procedure PostBalieOrder()
     var
