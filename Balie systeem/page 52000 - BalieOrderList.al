@@ -105,15 +105,15 @@ page 52003 "BalieOrderList"
         TempExcelBuffer.Reset();
         TempExcelBuffer.DeleteAll();
         TempExcelBuffer.NewRow();
-        TempExcelBuffer.AddColumn(BalieOrdersRec.FieldCaption(Balieordernummer), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
+        TempExcelBuffer.AddColumn(BalieOrdersRec.FieldCaption("Balieordernummer"), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
         TempExcelBuffer.AddColumn(BalieOrdersRec.FieldCaption("Bill-to Name"), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
         TempExcelBuffer.AddColumn(BalieOrdersRec.FieldCaption(OrderStatus), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
         if BalieOrdersRec.FindSet() then
             repeat
                 TempExcelBuffer.NewRow();
-                TempExcelBuffer.AddColumn(BalieOrdersRec.FieldCaption(Balieordernummer), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
-                TempExcelBuffer.AddColumn(BalieOrdersRec.FieldCaption("Bill-to Name"), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
-                TempExcelBuffer.AddColumn(BalieOrdersRec.FieldCaption(OrderStatus), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
+                TempExcelBuffer.AddColumn(BalieOrdersRec.Balieordernummer, false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
+                TempExcelBuffer.AddColumn(BalieOrdersRec."Bill-to Name", false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
+                TempExcelBuffer.AddColumn(BalieOrdersRec.OrderStatus, false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
             until BalieOrdersRec.Next() = 0;
         TempExcelBuffer.CreateNewBook(BalieOrderHeaderLbL);
         TempExcelBuffer.WriteSheet(BalieOrderHeaderLbL, CompanyName, UserId);
@@ -123,32 +123,12 @@ page 52003 "BalieOrderList"
 
 
     end;
-    //Excel export<<
-    //Excel export>>
 
-    // local procedure AddColumn(Value: Variant; IsFormula: Boolean; CommentText: Text; IsBold: Boolean; IsItalics: Boolean; IsUnderline: Boolean; NumFormat: Text[30]; CellType: Option)
-    // var
-    //     BalieOrdersRec: Record BalieOrderHeader;
-    //     TempExcelBuffer: Record "Excel Buffer" temporary;
-    //     BalieOrderHeaderLbL: Label 'Balie Orders';
-    //     ExcelFileName: Label 'Balie Orders_%1_%2';
-    // begin
-    //     if BalieOrdersRec.FindSet() then
-    //         repeat
-    //             TempExcelBuffer.NewRow();
-    //             TempExcelBuffer.AddColumn(BalieOrdersRec.FieldCaption(Balieordernummer), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
-    //             TempExcelBuffer.AddColumn(BalieOrdersRec.FieldCaption("Bill-to Name"), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
-    //             TempExcelBuffer.AddColumn(BalieOrdersRec.FieldCaption(OrderStatus), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
-    //         until BalieOrdersRec.Next() = 0;
-    //     TempExcelBuffer.CreateNewBook(BalieOrderHeaderLbL);
-    //     TempExcelBuffer.WriteSheet(BalieOrderHeaderLbL, CompanyName, UserId);
-    //     TempExcelBuffer.CloseBook();
-    //     TempExcelBuffer.SetFriendlyFilename(StrSubstNo(ExcelFileName, CurrentDateTime, UserId));
-    //     TempExcelBuffer.OpenExcel();
 
-    // end;
+
 
     //Excel export<<
+
 
 }
 
