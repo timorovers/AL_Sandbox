@@ -178,6 +178,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderSettings - Field BalieOrderNoS - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1595863803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SO Import Buffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595863803 - Field 2989471496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balie Order No</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field BalieOrderNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595863803 - Field 3182586253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field Batch Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595863803 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595863803 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field Status - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 949364537 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -358,15 +383,50 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Action ExporToExcel - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2571222393 - Action 3150094508 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>View a test report so that you can find and correct any errors before you perform the actual posting of the journal or document.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Action Test Report - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 2571222393 - Action 3150094508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Test report</source>
+          <source>Print confirmation</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Action Test Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2639436689 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SO Import Worksheet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SO Import Worksheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2639436689 - NamedType 2219800383" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Batch name is blank</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SO Import Worksheet - NamedType BatchISBlankMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 2639436689 - NamedType 3726724574" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Excel is successfully imported.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SO Import Worksheet - NamedType ExcelImportSucess</note>
+        </trans-unit>
+        <trans-unit id="Page 2639436689 - NamedType 511806700" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Excel file found!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SO Import Worksheet - NamedType NoFileFoundMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 2639436689 - NamedType 4273853447" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please Choose the Excel file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SO Import Worksheet - NamedType UploadExcelMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 2639436689 - Control 1042671269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SO Import Worksheet - Control BatchName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2639436689 - Action 1772648229 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import data from excel.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SO Import Worksheet - Action &amp;Import - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2639436689 - Action 1772648229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Import</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SO Import Worksheet - Action &amp;Import - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 4102490205 - ReportDataItem 1411659286 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balie order</source>

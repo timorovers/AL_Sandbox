@@ -24,7 +24,7 @@
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>6.93616in</Height>
+                  <Height>4.93616in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -772,6 +772,7 @@
                                                     <Value>totaal aantal</Value>
                                                     <Style>
                                                       <FontSize>9pt</FontSize>
+                                                      <FontWeight>Bold</FontWeight>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
@@ -785,6 +786,11 @@
                                               <Border>
                                                 <Style>None</Style>
                                               </Border>
+                                              <BottomBorder>
+                                                <Color>Black</Color>
+                                                <Style>Solid</Style>
+                                                <Width>1pt</Width>
+                                              </BottomBorder>
                                               <PaddingLeft>2pt</PaddingLeft>
                                               <PaddingRight>2pt</PaddingRight>
                                               <PaddingTop>2pt</PaddingTop>
@@ -876,17 +882,7 @@
                               <ChartSeriesHierarchy>
                                 <ChartMembers>
                                   <ChartMember>
-                                    <Group Name="Chart3_SeriesGroup">
-                                      <GroupExpressions>
-                                        <GroupExpression>=Fields!Description.Value</GroupExpression>
-                                      </GroupExpressions>
-                                    </Group>
-                                    <SortExpressions>
-                                      <SortExpression>
-                                        <Value>=Fields!Description.Value</Value>
-                                      </SortExpression>
-                                    </SortExpressions>
-                                    <Label>=Fields!Description.Value</Label>
+                                    <Label>Line Amount</Label>
                                   </ChartMember>
                                 </ChartMembers>
                               </ChartSeriesHierarchy>
@@ -909,7 +905,6 @@
                                       </ChartDataPoint>
                                     </ChartDataPoints>
                                     <Type>Shape</Type>
-                                    <Subtype>Sunburst</Subtype>
                                     <Style />
                                     <ChartEmptyPoints>
                                       <Style />
@@ -1167,7 +1162,6 @@
                                     <BackgroundGradientType>None</BackgroundGradientType>
                                     <FontSize>8pt</FontSize>
                                   </Style>
-                                  <Position>TopLeft</Position>
                                   <ChartLegendTitle>
                                     <Caption />
                                     <Style>
@@ -1212,9 +1206,9 @@
                                 </Style>
                               </ChartNoDataMessage>
                               <DataSetName>DataSet_Result</DataSetName>
-                              <Top>3.26393in</Top>
+                              <Top>3.03083in</Top>
                               <Left>0in</Left>
-                              <Height>2.27778in</Height>
+                              <Height>1.41667in</Height>
                               <Width>3.74016in</Width>
                               <ZIndex>3</ZIndex>
                               <Style>
@@ -1262,7 +1256,7 @@
             <DataSetName>DataSet_Result</DataSetName>
             <Top>0in</Top>
             <Left>0in</Left>
-            <Height>6.93616in</Height>
+            <Height>4.93616in</Height>
             <Width>6.49689in</Width>
             <Style>
               <Border>
@@ -1270,44 +1264,8 @@
               </Border>
             </Style>
           </Tablix>
-          <Textbox Name="SetDataField">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value />
-                    <Style />
-                  </TextRun>
-                </TextRuns>
-                <Style />
-              </Paragraph>
-            </Paragraphs>
-            <Top>2.99171in</Top>
-            <Left>3.74016in</Left>
-            <Height>0.27222in</Height>
-            <Width>0.7874in</Width>
-            <ZIndex>1</ZIndex>
-            <Visibility>
-              <Hidden>=Code.SetData(Cstr(Fields!Betaalmethode.Value) + Chr(177) + 
-Cstr(Fields!Posting_Date.Value) + Chr(177) + 
-Cstr(Fields!ItemNo.Value) + Chr(177) + 
-Cstr(Fields!Price.Value) + Chr(177) + 
-Cstr(Fields!Description.Value), 1)</Hidden>
-            </Visibility>
-            <Style>
-              <Border>
-                <Style>None</Style>
-              </Border>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
         </ReportItems>
-        <Height>6.93616in</Height>
+        <Height>4.93616in</Height>
         <Style />
       </Body>
       <Width>8.26772in</Width>
@@ -1370,16 +1328,6 @@ Cstr(Fields!Description.Value), 1)</Hidden>
             </Border>
           </Style>
         </PageHeader>
-        <PageFooter>
-          <Height>0.01042in</Height>
-          <PrintOnFirstPage>true</PrintOnFirstPage>
-          <PrintOnLastPage>true</PrintOnLastPage>
-          <Style>
-            <Border>
-              <Style>None</Style>
-            </Border>
-          </Style>
-        </PageFooter>
         <PageHeight>27.9cm</PageHeight>
         <PageWidth>21cm</PageWidth>
         <LeftMargin>0in</LeftMargin>

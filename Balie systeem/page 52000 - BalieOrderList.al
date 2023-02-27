@@ -52,8 +52,10 @@ page 52003 "BalieOrderList"
             action("Test Report")
             {
                 Caption = 'Print confirmation';
+                ApplicationArea = all;
                 Image = TestReport;
-                ToolTip = 'View a test report so that you can find and correct any errors before you perform the actual posting of the journal or document.';
+                Promoted = true;
+                PromotedIsBig = true;
                 trigger OnAction()
                 var
                     BalieOrderReport: Report BalieOrderReport;
