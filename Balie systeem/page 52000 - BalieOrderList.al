@@ -51,7 +51,7 @@ page 52003 "BalieOrderList"
         {
             action("Test Report")
             {
-                Caption = 'Test report';
+                Caption = 'Print confirmation';
                 Image = TestReport;
                 ToolTip = 'View a test report so that you can find and correct any errors before you perform the actual posting of the journal or document.';
                 trigger OnAction()

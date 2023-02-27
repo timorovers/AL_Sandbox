@@ -24,7 +24,7 @@
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>8.97088in</Height>
+                  <Height>6.93616in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -855,28 +855,38 @@
                                 </Border>
                               </Style>
                             </Tablix>
-                            <Chart Name="Chart1">
+                            <Chart Name="Chart3">
                               <ChartCategoryHierarchy>
                                 <ChartMembers>
                                   <ChartMember>
-                                    <Label />
+                                    <Group Name="Chart3_CategoryGroup">
+                                      <GroupExpressions>
+                                        <GroupExpression>=Fields!Description.Value</GroupExpression>
+                                      </GroupExpressions>
+                                    </Group>
+                                    <SortExpressions>
+                                      <SortExpression>
+                                        <Value>=Fields!Description.Value</Value>
+                                      </SortExpression>
+                                    </SortExpressions>
+                                    <Label>=Fields!Description.Value</Label>
                                   </ChartMember>
                                 </ChartMembers>
                               </ChartCategoryHierarchy>
                               <ChartSeriesHierarchy>
                                 <ChartMembers>
                                   <ChartMember>
-                                    <Group Name="Chart1_SeriesGroup">
+                                    <Group Name="Chart3_SeriesGroup">
                                       <GroupExpressions>
-                                        <GroupExpression>=Fields!ItemNo.Value</GroupExpression>
+                                        <GroupExpression>=Fields!Description.Value</GroupExpression>
                                       </GroupExpressions>
                                     </Group>
                                     <SortExpressions>
                                       <SortExpression>
-                                        <Value>=Fields!ItemNo.Value</Value>
+                                        <Value>=Fields!Description.Value</Value>
                                       </SortExpression>
                                     </SortExpressions>
-                                    <Label>=Fields!ItemNo.Value</Label>
+                                    <Label>=Fields!Description.Value</Label>
                                   </ChartMember>
                                 </ChartMembers>
                               </ChartSeriesHierarchy>
@@ -889,12 +899,8 @@
                                           <Y>=Sum(Fields!Line_Amount.Value)</Y>
                                         </ChartDataPointValues>
                                         <ChartDataLabel>
-                                          <Style>
-                                            <FontSize>9pt</FontSize>
-                                          </Style>
-                                          <Visible>true</Visible>
+                                          <Style />
                                         </ChartDataLabel>
-                                        <ToolTip>#VALY</ToolTip>
                                         <Style />
                                         <ChartMarker>
                                           <Style />
@@ -903,9 +909,8 @@
                                       </ChartDataPoint>
                                     </ChartDataPoints>
                                     <Type>Shape</Type>
-                                    <Style>
-                                      <ShadowOffset>0pt</ShadowOffset>
-                                    </Style>
+                                    <Subtype>Sunburst</Subtype>
+                                    <Style />
                                     <ChartEmptyPoints>
                                       <Style />
                                       <ChartMarker>
@@ -930,7 +935,7 @@
                                     <ChartAxis Name="Primary">
                                       <Style>
                                         <Border>
-                                          <Color>#5c5c5c</Color>
+                                          <Color>Gainsboro</Color>
                                           <Style>None</Style>
                                         </Border>
                                         <FontSize>8pt</FontSize>
@@ -962,7 +967,7 @@
                                       <ChartMajorTickMarks>
                                         <Style>
                                           <Border>
-                                            <Color>LightGrey</Color>
+                                            <Color>Gainsboro</Color>
                                             <Style>None</Style>
                                           </Border>
                                         </Style>
@@ -970,7 +975,7 @@
                                       <ChartMinorTickMarks>
                                         <Style>
                                           <Border>
-                                            <Color>LightGrey</Color>
+                                            <Color>Gainsboro</Color>
                                           </Border>
                                         </Style>
                                         <Length>0.5</Length>
@@ -985,7 +990,7 @@
                                     <ChartAxis Name="Secondary">
                                       <Style>
                                         <Border>
-                                          <Color>#5c5c5c</Color>
+                                          <Color>Gainsboro</Color>
                                           <Style>None</Style>
                                         </Border>
                                         <FontSize>8pt</FontSize>
@@ -1017,7 +1022,7 @@
                                       <ChartMajorTickMarks>
                                         <Style>
                                           <Border>
-                                            <Color>LightGrey</Color>
+                                            <Color>Gainsboro</Color>
                                             <Style>None</Style>
                                           </Border>
                                         </Style>
@@ -1025,7 +1030,7 @@
                                       <ChartMinorTickMarks>
                                         <Style>
                                           <Border>
-                                            <Color>LightGrey</Color>
+                                            <Color>Gainsboro</Color>
                                           </Border>
                                         </Style>
                                         <Length>0.5</Length>
@@ -1043,7 +1048,7 @@
                                     <ChartAxis Name="Primary">
                                       <Style>
                                         <Border>
-                                          <Color>#5c5c5c</Color>
+                                          <Color>Gainsboro</Color>
                                           <Style>None</Style>
                                         </Border>
                                         <FontSize>8pt</FontSize>
@@ -1074,7 +1079,7 @@
                                       <ChartMajorTickMarks>
                                         <Style>
                                           <Border>
-                                            <Color>LightGrey</Color>
+                                            <Color>Gainsboro</Color>
                                             <Style>None</Style>
                                           </Border>
                                         </Style>
@@ -1082,7 +1087,7 @@
                                       <ChartMinorTickMarks>
                                         <Style>
                                           <Border>
-                                            <Color>LightGrey</Color>
+                                            <Color>Gainsboro</Color>
                                           </Border>
                                         </Style>
                                         <Length>0.5</Length>
@@ -1097,7 +1102,7 @@
                                     <ChartAxis Name="Secondary">
                                       <Style>
                                         <Border>
-                                          <Color>#5c5c5c</Color>
+                                          <Color>Gainsboro</Color>
                                           <Style>None</Style>
                                         </Border>
                                         <FontSize>8pt</FontSize>
@@ -1128,7 +1133,7 @@
                                       <ChartMajorTickMarks>
                                         <Style>
                                           <Border>
-                                            <Color>LightGrey</Color>
+                                            <Color>Gainsboro</Color>
                                             <Style>None</Style>
                                           </Border>
                                         </Style>
@@ -1136,7 +1141,7 @@
                                       <ChartMinorTickMarks>
                                         <Style>
                                           <Border>
-                                            <Color>LightGrey</Color>
+                                            <Color>Gainsboro</Color>
                                           </Border>
                                         </Style>
                                         <Length>0.5</Length>
@@ -1159,13 +1164,10 @@
                               <ChartLegends>
                                 <ChartLegend Name="Default">
                                   <Style>
-                                    <Border>
-                                      <Color>#5c5c5c</Color>
-                                    </Border>
-                                    <BackgroundGradientType>TopBottom</BackgroundGradientType>
+                                    <BackgroundGradientType>None</BackgroundGradientType>
                                     <FontSize>8pt</FontSize>
                                   </Style>
-                                  <Position>TopCenter</Position>
+                                  <Position>TopLeft</Position>
                                   <ChartLegendTitle>
                                     <Caption />
                                     <Style>
@@ -1180,7 +1182,7 @@
                               </ChartLegends>
                               <ChartTitles>
                                 <ChartTitle Name="Default">
-                                  <Caption>Line amount per item</Caption>
+                                  <Caption>Line amount per description</Caption>
                                   <Style>
                                     <BackgroundGradientType>None</BackgroundGradientType>
                                     <FontSize>9pt</FontSize>
@@ -1210,16 +1212,15 @@
                                 </Style>
                               </ChartNoDataMessage>
                               <DataSetName>DataSet_Result</DataSetName>
-                              <Top>2.99171in</Top>
+                              <Top>3.26393in</Top>
                               <Left>0in</Left>
-                              <Height>3.94445in</Height>
-                              <Width>2.78495in</Width>
+                              <Height>2.27778in</Height>
+                              <Width>3.74016in</Width>
                               <ZIndex>3</ZIndex>
                               <Style>
                                 <Border>
-                                  <Color>#5c5c5c</Color>
+                                  <Color>LightGrey</Color>
                                   <Style>None</Style>
-                                  <Width>2pt</Width>
                                 </Border>
                                 <BackgroundColor>White</BackgroundColor>
                                 <BackgroundGradientType>None</BackgroundGradientType>
@@ -1261,7 +1262,7 @@
             <DataSetName>DataSet_Result</DataSetName>
             <Top>0in</Top>
             <Left>0in</Left>
-            <Height>8.97088in</Height>
+            <Height>6.93616in</Height>
             <Width>6.49689in</Width>
             <Style>
               <Border>
@@ -1306,7 +1307,7 @@ Cstr(Fields!Description.Value), 1)</Hidden>
             </Style>
           </Textbox>
         </ReportItems>
-        <Height>8.97088in</Height>
+        <Height>6.93616in</Height>
         <Style />
       </Body>
       <Width>8.26772in</Width>
@@ -1370,43 +1371,9 @@ Cstr(Fields!Description.Value), 1)</Hidden>
           </Style>
         </PageHeader>
         <PageFooter>
-          <Height>0.57937in</Height>
+          <Height>0.01042in</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
-          <ReportItems>
-            <Textbox Name="Textbox7">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>Bedankt voor uw bestelling en tot ziens </Value>
-                      <Style />
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Center</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>Textbox7</rd:DefaultName>
-              <Top>0.05556in</Top>
-              <Left>2.76535in</Left>
-              <Height>0.52381in</Height>
-              <Width>2.54961in</Width>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <VerticalAlign>Middle</VerticalAlign>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
-          </ReportItems>
           <Style>
             <Border>
               <Style>None</Style>
