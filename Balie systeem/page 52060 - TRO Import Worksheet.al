@@ -1,7 +1,7 @@
-page 52060 "SO Import Worksheet"
+page 52060 "TRO Import Worksheet"
 {
     AutoSplitKey = true;
-    Caption = 'SO Import Worksheet';
+    Caption = 'TRO Import Worksheet';
     DelayedInsert = true;
     InsertAllowed = false;
     ModifyAllowed = false;
@@ -191,10 +191,10 @@ page 52060 "SO Import Worksheet"
             // Evaluate(SOImportBuffer."No.", GetValueAtCell(RowNo, 8));
             // Evaluate(SOImportBuffer.Quantity, GetValueAtCell(RowNo, 9));
             // Evaluate(SOImportBuffer."Unit Price", GetValueAtCell(RowNo, 10));
-            // SOImportBuffer."Sheet Name" := SheetName;
-            // SOImportBuffer."File Name" := FileName;
-            // SOImportBuffer."Imported Date" := Today;
-            // SOImportBuffer."Imported Time" := Time;
+            SOImportBuffer."Sheet Name" := SheetName;
+            SOImportBuffer."File Name" := FileName;
+            SOImportBuffer."Imported Date" := Today;
+            SOImportBuffer."Imported Time" := Time;
             SOImportBuffer.Insert();
         end;
         Message(ExcelImportSucess);

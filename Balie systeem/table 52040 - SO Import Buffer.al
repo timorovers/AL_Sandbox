@@ -24,6 +24,30 @@ table 52040 "SO Import Buffer"
             DataClassification = ToBeClassified;
             Caption = 'Status';
         }
+        field(5; "File Name"; Text[50])
+        {
+            Caption = 'File Name';
+            Editable = false;
+            DataClassification = CustomerContent;
+        }
+        field(6; "Sheet Name"; Text[30])
+        {
+            Caption = 'Sheet Name';
+            DataClassification = CustomerContent;
+        }
+        field(7; "Imported Date"; Date)
+        {
+            Caption = 'Imported Date';
+            Editable = false;
+            DataClassification = CustomerContent;
+        }
+        field(8; "Imported Time"; Time)
+        {
+            Caption = 'Imported Time';
+            Editable = false;
+            DataClassification = CustomerContent;
+        }
+
     }
     keys
     {
