@@ -213,6 +213,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field Line No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1595863803 - Field 501972646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field LineAmount - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1595863803 - Field 745542804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sheet Name</source>
           <note from="Developer" annotates="general" priority="2"></note>

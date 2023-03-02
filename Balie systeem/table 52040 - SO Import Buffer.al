@@ -47,6 +47,12 @@ table 52040 "SO Import Buffer"
             Editable = false;
             DataClassification = CustomerContent;
         }
+        field(9; LineAmount; Decimal)
+        {
+            Caption = 'Line amount';
+            Editable = false;
+            DataClassification = ToBeClassified;
+        }
 
     }
     keys

@@ -43,6 +43,11 @@ page 52060 "TRO Import Worksheet"
                     Visible = false;
                     ApplicationArea = All;
                 }
+                field(LineAmount; rec.LineAmount)
+                {
+                    Visible = false;
+                    ApplicationArea = all;
+                }
 
                 // field("Document No."; Rec."Document No.")
                 // {
@@ -181,6 +186,7 @@ page 52060 "TRO Import Worksheet"
             SOImportBuffer.BalieOrderNo := rec.BalieOrderNo;
             Evaluate(SOImportBuffer.BalieOrderNo, GetValueAtCell(RowNo, 1));
             Evaluate(SOImportBuffer."Status", GetValueAtCell(RowNo, 2));
+            Evaluate(SOImportBuffer.LineAmount, GetValueAtCell(RowNo, 3));
             // Evaluate(SOImportBuffer."Document No.", GetValueAtCell(RowNo, 1));
             // Evaluate(SOImportBuffer."Sell-to Customer No.", GetValueAtCell(RowNo, 2));
             // Evaluate(SOImportBuffer."Posting Date", GetValueAtCell(RowNo, 3));
