@@ -473,6 +473,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesReceivablesSetupPageExt - Control BalieOrderNoS - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 506427742 - Field 171145402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4274826855">
+          <source>Index</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GLExt - Field Index - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2647506971 - Field 2644973545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
           <source>Balie order nos</source>
           <note from="Developer" annotates="general" priority="2"></note>
