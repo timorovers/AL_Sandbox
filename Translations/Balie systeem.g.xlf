@@ -78,6 +78,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field Bill-to Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1411659286 - Field 3473146343 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Boolean1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field Boolean1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1411659286 - Field 1091268898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Boolean2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field Boolean2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1411659286 - Field 453572281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Boolean3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field Boolean3 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1411659286 - Field 1987256405 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Type here</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -227,6 +242,31 @@
           <source>Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1983674583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statements card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ALexample - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1983674583 - Control 3567459362 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Input</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ALexample - Control Input - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1983674583 - Control 1623047485 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Difficulty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ALexample - Control Difficulty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1983674583 - Control 3961040049 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ALexample - Control Output - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1983674583 - Control 494089240 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ALexample - Control Suggestion - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 949364537 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lines</source>
@@ -472,11 +512,6 @@
           <source>Balie order nos</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesReceivablesSetupPageExt - Control BalieOrderNoS - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 506427742 - Field 171145402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4274826855">
-          <source>Index</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GLExt - Field Index - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2647506971 - Field 2644973545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
           <source>Balie order nos</source>

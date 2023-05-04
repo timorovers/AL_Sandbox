@@ -56,6 +56,25 @@ page 52000 BalieorderCard
                 field(ShipmentCostsIncluded; rec.ShipmentCostsIncluded)
                 {
                 }
+                field(Boolean1; rec.Boolean1)
+                {
+                    ApplicationArea = all;
+                    trigger OnValidate()
+                    begin
+                        if rec.Boolean1 = true then
+                            rec.Boolean2 := true;
+                        rec.Boolean3 := true;
+
+                    end;
+                }
+                field(Boolean2; rec.Boolean2)
+                {
+                    ApplicationArea = all;
+                }
+                field(Boolean3; rec.Boolean3)
+                {
+                    ApplicationArea = all;
+                }
             }
             part(BalieOrderLines; "Balie Order SubForm")
             {
