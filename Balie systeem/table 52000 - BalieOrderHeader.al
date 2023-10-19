@@ -44,12 +44,6 @@ table 52005 BalieOrderHeader
         }
 
 
-
-
-
-
-
-
         field(25; "Bill-to Customer No."; Code[20])
         {
             Caption = 'Bill-to Customer No.';
@@ -130,6 +124,18 @@ table 52005 BalieOrderHeader
         {
             DataClassification = ToBeClassified;
             Caption = 'Shipment date';
+        }
+        field(70; Boolean1; Boolean)
+        {
+            DataClassification = ToBeClassified;
+        }
+        field(75; Boolean2; Boolean)
+        {
+            DataClassification = ToBeClassified;
+        }
+        field(80; Boolean3; Boolean)
+        {
+            DataClassification = ToBeClassified;
         }
 
     }

@@ -35,6 +35,12 @@ page 52040 BalieCue
                     DrillDownPageId = BalieOrderList;
                     ApplicationArea = All;
                 }
+                field(AverageCashPayment; rec.AverageCashPayment)
+                {
+                    Caption = 'Average cash payment';
+                    DrillDownPageId = BalieOrderList;
+                    ApplicationArea = All;
+                }
             }
         }
     }

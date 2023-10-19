@@ -3,6 +3,16 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Balie systeem">
     <body>
       <group id="body">
+        <trans-unit id="Table 1829473532 - Field 1948571804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AverageCashPayment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderCueTable - Field AverageCashPayment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1829473532 - Field 1252957607 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BalieOrdersCancelled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderCueTable - Field BalieOrdersCancelled - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1829473532 - Field 3333597367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>BalieOrdersGearchiveerd</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -67,6 +77,21 @@
           <source>Bill-to Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field Bill-to Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1411659286 - Field 3473146343 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Boolean1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field Boolean1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1411659286 - Field 1091268898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Boolean2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field Boolean2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1411659286 - Field 453572281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Boolean3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderHeader - Field Boolean3 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1411659286 - Field 1987256405 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Type here</source>
@@ -168,6 +193,56 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BalieOrderSettings - Field BalieOrderNoS - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1595863803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SO Import Buffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595863803 - Field 2989471496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balie Order No</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field BalieOrderNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595863803 - Field 3182586253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field Batch Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595863803 - Field 804481195 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field File Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595863803 - Field 4035407732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Imported Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field Imported Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595863803 - Field 1435492275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Imported Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field Imported Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595863803 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595863803 - Field 501972646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field LineAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595863803 - Field 745542804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sheet Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field Sheet Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595863803 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SO Import Buffer - Field Status - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 949364537 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -217,6 +292,11 @@
           <source>Balie orders</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieCue - Control BalieOrders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3561296292 - Control 1948571804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Average cash payment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieCue - Control AverageCashPayment - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3561296292 - Control 3333597367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Archived</source>
@@ -298,6 +378,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2571222393 - Method 40260118 - NamedType 2861956060" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balie Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Method ExportBalieOrders - NamedType BalieOrderHeaderLbL</note>
+        </trans-unit>
+        <trans-unit id="Page 2571222393 - Method 40260118 - NamedType 2499179930" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balie Orders_%1_%2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Method ExportBalieOrders - NamedType ExcelFileName</note>
+        </trans-unit>
         <trans-unit id="Page 2571222393 - Control 142624955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balie Order nr</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -328,16 +418,17 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Control Posting Date - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2571222393 - Action 3150094508 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>View a test report so that you can find and correct any errors before you perform the actual posting of the journal or document.</source>
+        <trans-unit id="Page 2571222393 - Action 460504864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export to Excel</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Action Test Report - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Action ExporToExcel - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2571222393 - Action 3150094508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Test report</source>
+          <source>Print confirmation</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BalieOrderList - Action Test Report - Property Caption</note>
         </trans-unit>
+<<<<<<< HEAD
         <trans-unit id="Page 346700899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>TRO API</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -347,6 +438,57 @@
           <source>Weer in Venlo</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TROAPI - Control Weather - Property Caption</note>
+=======
+        <trans-unit id="Page 170460150 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TRO Import Worksheet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TRO Import Worksheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 170460150 - NamedType 2219800383" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Batch name is blank</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TRO Import Worksheet - NamedType BatchISBlankMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 170460150 - NamedType 3726724574" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Excel is successfully imported.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TRO Import Worksheet - NamedType ExcelImportSucess</note>
+        </trans-unit>
+        <trans-unit id="Page 170460150 - NamedType 511806700" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Excel file found!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TRO Import Worksheet - NamedType NoFileFoundMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 170460150 - NamedType 4273853447" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please Choose the Excel file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TRO Import Worksheet - NamedType UploadExcelMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 170460150 - Control 1042671269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TRO Import Worksheet - Control BatchName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 170460150 - Action 1772648229 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import data from excel.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TRO Import Worksheet - Action &amp;Import - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 170460150 - Action 1772648229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Import</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TRO Import Worksheet - Action &amp;Import - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3102267349 - Control 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Workbench - Control Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3102267349 - Control 2248886284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message Area</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Workbench - Control Error - Property Caption</note>
+>>>>>>> 324fde31eb6f15448ca9812928f756471fdd9044
         </trans-unit>
         <trans-unit id="Report 4102490205 - ReportDataItem 1411659286 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balie order</source>
@@ -359,7 +501,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Query BalieOrderQuery - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3037611578 - Control 3561296292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
-          <source>Balie order gegevens</source>
+          <source>Balie order data</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension RoleCenterExtension - Control BalieCue - Property Caption</note>
         </trans-unit>
@@ -377,6 +519,11 @@
           <source>Archived</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Orderstatus - EnumValue Archived - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1502039190 - EnumValue 4069904181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancelled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Orderstatus - EnumValue Cancelled - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1502039190 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open</source>

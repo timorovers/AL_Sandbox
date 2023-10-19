@@ -30,6 +30,8 @@ report 50000 BalieOrderReport
             { }
             column(Notitie; "Notitie")
             { }
+            column(OrderStatus; OrderStatus)
+            { }
             dataitem(Line; BalieOrderLine)
             {
                 DataItemLink = balieordernummer = FIELD(Balieordernummer);

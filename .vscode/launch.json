@@ -5,8 +5,10 @@
             
             "type": "al",
             "request": "launch",
-            "tenant": "a8e95c05-1220-481c-874b-14e01152fba3",
-            "environmentName": "DEV",
+            //"tenant": "a8e95c05-1220-481c-874b-14e01152fba3",
+            "tenant": "7fecfa51-4dde-4bbc-ab86-6704f2a545e4",
+            //"environmentName": "DEV",
+            "environmentName": "DEV1",
             "schemaUpdateMode":"ForceSync",
             "name": "Launch",
         }
